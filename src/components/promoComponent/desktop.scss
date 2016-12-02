@@ -1,0 +1,59 @@
+@import 'tablet';
+
+& {
+  //width: px(2880);
+  height: px(1400);
+  background: url('../images/promo-desktop-bg.png') no-repeat;
+  //background-size: contain;
+
+  .promo__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1040px;
+    height: 35px;
+    margin-top: 0;
+
+    .promo__urlaubsgluck-header {
+      display: block;
+      margin-top: -15px;
+      //margin-left: px(250);
+      margin-left: 100px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: px(1);
+    }
+
+    .promo__button {
+      margin-top: -24px;
+    }
+  }
+
+  .promo__content {
+    width: px(900);
+    height: px(480);
+    margin-top: px(235);
+
+    .promo__share-dreams {
+      margin-left: 90px;
+      //text-align: center;
+      line-height: px(98);
+    }
+
+    .promo__perfect-partner {
+      margin-top: px(40);
+      text-align: center;
+      padding-left: px(140);
+    }
+
+    .promo__find-partner-button {
+      margin-top: px(60);
+      //text-align: center;
+      margin-left: px(140);
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+@import 'tablet';
+
+& {
+  width: px(1880);
+  height: px(1110);
+  margin: 0 110px;
+
+  .how-it-works__title {
+    text-align: center;
+    margin-top: -98px;
+  }
+
+  .how-it-works__slider {
+    width: 940px;
+    margin-top: -5px;
+
+    .how-it-works__step {
+      width: 300px;
+      height: 400px;
+    }
+  }
+}

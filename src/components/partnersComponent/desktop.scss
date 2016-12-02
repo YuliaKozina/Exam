@@ -1,0 +1,22 @@
+@import 'tablet';
+
+& {
+  height: px(940);
+  margin-top: -155px;
+
+  .partners__title {
+    margin-left: 50px;
+  }
+
+  .partners__content {
+    width: 940px;
+    margin: -110px 260px;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .partners__button {
+    margin: 35px 635px;
+  }
+}

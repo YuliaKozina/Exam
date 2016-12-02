@@ -1,0 +1,93 @@
+& {
+  //width: px(640);
+  height: px(1630);
+  //margin: 0 px(20);
+
+  .how-it-works__title {
+    margin-top: px(74);
+    margin-bottom: px(34);
+    font-family: 'Montserrat Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .how-it-works__step {
+    display: flex;
+    align-items: flex-end;
+    width: px(600);
+    height: px(480);
+    margin: px(20) auto;
+
+    .how-it-works__step-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: px(520);
+      height: auto;
+      margin-left: 20px;
+      padding-bottom: 20px;
+      text-align: left;
+
+      .how-it-works__step-button {
+        width: 70px;
+        height: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        background-color: $colorRed;
+        border: px(2) solid $colorRed;
+        border-radius: px(30);
+        color: #fff;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 2px;
+      }
+
+      .how-it-works__step-title {
+        margin-bottom: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+      }
+
+      .how-it-works__step-tagline {
+        color: #b1afac;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 15px;
+      }
+    }
+  }
+
+  .how-it-works__step1 {
+    background: url('../images/step1-bg.png') no-repeat;
+  }
+
+  .how-it-works__step2 {
+    background: url('../images/step2-bg.png') no-repeat;
+
+    .how-it-works__step-content {
+      .how-it-works__step-button {
+        margin-bottom: px(30);
+      }
+
+      .how-it-works__step-title {
+        margin-bottom: px(30);
+      }
+    }
+  }
+
+  .how-it-works__step3 {
+    background: url('../images/step3-bg.png') no-repeat;
+  }
+}
+
+

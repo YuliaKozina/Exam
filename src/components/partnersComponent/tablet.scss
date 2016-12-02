@@ -1,0 +1,29 @@
+@import 'mobile';
+
+& {
+  height: px(1450);
+  margin-top: 135px;
+  margin-left: -10px;
+
+  .partners__title {
+    width: 100%;
+  }
+
+  .partners__content {
+    flex-wrap: wrap;
+    width: 480px;
+    height: 490px;
+    margin: 35px auto;
+
+    .partners__block {
+      margin: 0 10px;
+      width: 220px;
+    }
+  }
+
+  .partners__button {
+    width: 192px;
+    height: 40px;
+    margin-left: 300px;
+  }
+}

@@ -1,0 +1,2854 @@
+*,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: inherit; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  vertical-align: baseline; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Montserrat-Regular.woff2) format("woff2"), url(fonts/Montserrat-Regular.woff) format("woff"), url(fonts/Montserrat-Regular.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Montserrat Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/Montserrat-Bold.woff2) format("woff2"), url(fonts/Montserrat-Bold.woff) format("woff"), url(fonts/Montserrat-Bold.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Roboto-Regular.woff2) format("woff2"), url(fonts/Roboto-Regular.woff) format("woff"), url(fonts/Roboto-Regular.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/Roboto-Italic.woff2) format("woff2"), url(fonts/Roboto-Italic.woff) format("woff"), url(fonts/Roboto-Italic.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/Roboto-Medium.woff2) format("woff2"), url(fonts/Roboto-Medium.woff) format("woff"), url(fonts/Roboto-Medium.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: italic;
+  font-weight: 500;
+  src: url(fonts/Roboto-MediumItalic.woff2) format("woff2"), url(fonts/Roboto-MediumItalic.woff) format("woff"), url(fonts/Roboto-MediumItalic.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url(fonts/Roboto-Black.woff2) format("woff2"), url(fonts/Roboto-Black.woff) format("woff"), url(fonts/Roboto-Black.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Black';
+  font-style: italic;
+  font-weight: 900;
+  src: url(fonts/Roboto-BlackItalic.woff2) format("woff2"), url(fonts/Roboto-BlackItalic.woff) format("woff"), url(fonts/Roboto-BlackItalic.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/Roboto-Light.woff2) format("woff2"), url(fonts/Roboto-Light.woff) format("woff"), url(fonts/Roboto-Light.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Light';
+  font-style: italic;
+  font-weight: 300;
+  src: url(fonts/Roboto-LightItalic.woff2) format("woff2"), url(fonts/Roboto-LightItalic.woff) format("woff"), url(fonts/Roboto-LightItalic.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Thin';
+  font-style: normal;
+  font-weight: 100;
+  src: url(fonts/Roboto-Thin.woff2) format("woff2"), url(fonts/Roboto-Thin.woff) format("woff"), url(fonts/Roboto-Thin.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Thin';
+  font-style: italic;
+  font-weight: 100;
+  src: url(fonts/Roboto-ThinItalic.woff2) format("woff2"), url(fonts/Roboto-ThinItalic.woff) format("woff"), url(fonts/Roboto-ThinItalic.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/Roboto-Bold.woff2) format("woff2"), url(fonts/Roboto-Bold.woff) format("woff"), url(fonts/Roboto-Bold.ttf) format("ttf"); }
+@font-face {
+  font-family: 'Roboto Bold';
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/Roboto-BoldItalic.woff2) format("woff2"), url(fonts/Roboto-BoldItalic.woff) format("woff"), url(fonts/Roboto-BoldItalic.ttf) format("ttf"); }
+@media (max-width: 414px) {
+  .promoComponent {
+    height: 168.75vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 53.125vw;
+      margin: 0 auto;
+      padding-top: 8.59375vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.625vw solid #fff;
+          border-radius: 4.6875vw; }
+    .promoComponent .promo__content {
+      width: 93.75vw;
+      height: 56.25vw;
+      margin: 39.84375vw auto 3.125vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.15625vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 10vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 10.9375vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 3.75vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 3.125vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; } }
+@media (min-width: 415px) and (max-width: 667px) {
+  .promoComponent {
+    height: 95.0724vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 29.9302vw;
+      margin: 0 auto;
+      padding-top: 4.84165vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.35212vw solid #fff;
+          border-radius: 2.6409vw; }
+    .promoComponent .promo__content {
+      width: 52.818vw;
+      height: 31.6908vw;
+      margin: 22.44765vw auto 1.7606vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.08803vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 5.63392vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 6.1621vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 2.11272vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 1.7606vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; } }
+@media (min-width: 668px) and (max-width: 768px) {
+  .promoComponent {
+    height: 70.31448vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 22.13604vw;
+      margin: 0 auto;
+      padding-top: 3.58083vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.26042vw solid #fff;
+          border-radius: 1.95318vw; }
+    .promoComponent .promo__content {
+      width: 39.0636vw;
+      height: 23.43816vw;
+      margin: 16.60203vw auto 1.30212vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.06511vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 4.16678vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 4.55742vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.56254vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 1.30212vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; }
+  .promoComponent {
+    height: 700px;
+    background: url("../images/promo-tablet-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 117.1908vw;
+      padding-top: 6.5106vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        margin: 1.30212vw 0.78127vw;
+        display: block;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.13021vw; }
+    .promoComponent .promo__content {
+      width: 91.1484vw;
+      height: 31.25088vw;
+      margin: 24.41475vw auto; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        display: none; }
+      .promoComponent .promo__content .promo__share-dreams {
+        line-height: 11.06802vw;
+        font-size: 52px; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 4.55742vw;
+        font-size: 24px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 230px;
+        margin-top: 6.18507vw; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .promoComponent {
+    height: 52.73452vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 16.60161vw;
+      margin: 0 auto;
+      padding-top: 2.68555vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.19531vw solid #fff;
+          border-radius: 1.46485vw; }
+    .promoComponent .promo__content {
+      width: 29.29696vw;
+      height: 17.57817vw;
+      margin: 12.45121vw auto 0.97657vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04883vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 3.12501vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 3.41798vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.17188vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 0.97657vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; }
+  .promoComponent {
+    height: 700px;
+    background: url("../images/promo-tablet-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 87.89087vw;
+      padding-top: 4.88283vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        margin: 0.97657vw 0.58594vw;
+        display: block;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.09766vw; }
+    .promoComponent .promo__content {
+      width: 68.35956vw;
+      height: 23.43756vw;
+      margin: 18.3106vw auto; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        display: none; }
+      .promoComponent .promo__content .promo__share-dreams {
+        line-height: 8.3008vw;
+        font-size: 52px; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 3.41798vw;
+        font-size: 24px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 230px;
+        margin-top: 4.63868vw; } }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .promoComponent {
+    height: 50.62514vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 15.93754vw;
+      margin: 0 auto;
+      padding-top: 2.57813vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.1875vw solid #fff;
+          border-radius: 1.40625vw; }
+    .promoComponent .promo__content {
+      width: 28.12508vw;
+      height: 16.87505vw;
+      margin: 11.95316vw auto 0.9375vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04688vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 3.00001vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 3.28126vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.125vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 0.9375vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; }
+  .promoComponent {
+    height: 700px;
+    background: url("../images/promo-tablet-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 84.37523vw;
+      padding-top: 4.68751vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        margin: 0.9375vw 0.5625vw;
+        display: block;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.09375vw; }
+    .promoComponent .promo__content {
+      width: 65.62518vw;
+      height: 22.50006vw;
+      margin: 17.57817vw auto; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        display: none; }
+      .promoComponent .promo__content .promo__share-dreams {
+        line-height: 7.96877vw;
+        font-size: 52px; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 3.28126vw;
+        font-size: 24px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 230px;
+        margin-top: 4.45314vw; }
+  .promoComponent {
+    height: 65.62518vw;
+    background: url("../images/promo-desktop-bg.png") no-repeat; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 1040px;
+      height: 35px;
+      margin-top: 0; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: block;
+        margin-top: -15px;
+        margin-left: 100px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04688vw; }
+      .promoComponent .promo__header .promo__button {
+        margin-top: -24px; }
+    .promoComponent .promo__content {
+      width: 42.18762vw;
+      height: 22.50006vw;
+      margin-top: 11.01566vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-left: 90px;
+        line-height: 4.59376vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.87501vw;
+        text-align: center;
+        padding-left: 6.56252vw; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        margin-top: 2.81251vw;
+        margin-left: 6.56252vw; } }
+@media (min-width: 1367px) and (max-width: 1680px) {
+  .promoComponent {
+    height: 47.46106vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 14.94145vw;
+      margin: 0 auto;
+      padding-top: 2.417vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.17578vw solid #fff;
+          border-radius: 1.31836vw; }
+    .promoComponent .promo__content {
+      width: 26.36726vw;
+      height: 15.82035vw;
+      margin: 11.20608vw auto 0.87891vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04395vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 2.81251vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 3.07618vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.05469vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 0.87891vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; }
+  .promoComponent {
+    height: 700px;
+    background: url("../images/promo-tablet-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 79.10177vw;
+      padding-top: 4.39454vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        margin: 0.87891vw 0.52735vw;
+        display: block;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.08789vw; }
+    .promoComponent .promo__content {
+      width: 61.5236vw;
+      height: 21.09381vw;
+      margin: 16.47954vw auto; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        display: none; }
+      .promoComponent .promo__content .promo__share-dreams {
+        line-height: 7.47072vw;
+        font-size: 52px; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 3.07618vw;
+        font-size: 24px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 230px;
+        margin-top: 4.17482vw; }
+  .promoComponent {
+    height: 61.5236vw;
+    background: url("../images/promo-desktop-bg.png") no-repeat; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 1040px;
+      height: 35px;
+      margin-top: 0; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: block;
+        margin-top: -15px;
+        margin-left: 100px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.04395vw; }
+      .promoComponent .promo__header .promo__button {
+        margin-top: -24px; }
+    .promoComponent .promo__content {
+      width: 39.55089vw;
+      height: 21.09381vw;
+      margin-top: 10.32718vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-left: 90px;
+        line-height: 4.30665vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.75782vw;
+        text-align: center;
+        padding-left: 6.15236vw; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        margin-top: 2.63673vw;
+        margin-left: 6.15236vw; } }
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .promoComponent {
+    height: 42.18761vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 13.28128vw;
+      margin: 0 auto;
+      padding-top: 2.14844vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.15625vw solid #fff;
+          border-radius: 1.17188vw; }
+    .promoComponent .promo__content {
+      width: 23.43756vw;
+      height: 14.06254vw;
+      margin: 9.96096vw auto 0.78125vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.03906vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 2.50001vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 2.73438vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 0.9375vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 0.78125vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; }
+  .promoComponent {
+    height: 700px;
+    background: url("../images/promo-tablet-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70.31268vw;
+      padding-top: 3.90626vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        margin: 0.78125vw 0.46875vw;
+        display: block;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.07813vw; }
+    .promoComponent .promo__content {
+      width: 54.68764vw;
+      height: 18.75005vw;
+      margin: 14.64848vw auto; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        display: none; }
+      .promoComponent .promo__content .promo__share-dreams {
+        line-height: 6.64064vw;
+        font-size: 52px; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 2.73438vw;
+        font-size: 24px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 230px;
+        margin-top: 3.71095vw; }
+  .promoComponent {
+    height: 54.68764vw;
+    background: url("../images/promo-desktop-bg.png") no-repeat; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 1040px;
+      height: 35px;
+      margin-top: 0; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: block;
+        margin-top: -15px;
+        margin-left: 100px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.03906vw; }
+      .promoComponent .promo__header .promo__button {
+        margin-top: -24px; }
+    .promoComponent .promo__content {
+      width: 35.15634vw;
+      height: 18.75005vw;
+      margin-top: 9.17971vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-left: 90px;
+        line-height: 3.82813vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.5625vw;
+        text-align: center;
+        padding-left: 5.46876vw; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        margin-top: 2.34376vw;
+        margin-left: 5.46876vw; } }
+@media (min-width: 1921px) {
+  .promoComponent {
+    height: 36.91408vw;
+    background: url("../images/promo-mobile-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      width: 11.6211vw;
+      margin: 0 auto;
+      padding-top: 1.87988vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: none; }
+      .promoComponent .promo__header .promo__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 35px; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button {
+          width: 90px;
+          height: 35px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          background: none;
+          border: none; }
+        .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
+        .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
+          width: 90px;
+          height: 35px;
+          box-sizing: border-box;
+          border: 0.13672vw solid #fff;
+          border-radius: 1.02539vw; }
+    .promoComponent .promo__content {
+      width: 20.50782vw;
+      height: 12.30469vw;
+      margin: 8.71582vw auto 0.68359vw;
+      color: #fff;
+      text-align: center; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.03418vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-top: 2.1875vw;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 2.39258vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 0.82031vw;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 280px;
+        height: 40px;
+        margin: 0.68359vw auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px; }
+  .promoComponent {
+    height: 700px;
+    background: url("../images/promo-tablet-bg.png") no-repeat;
+    background-size: cover; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 61.52346vw;
+      padding-top: 3.41797vw; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        margin: 0.68359vw 0.41016vw;
+        display: block;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.06836vw; }
+    .promoComponent .promo__content {
+      width: 47.85158vw;
+      height: 16.40626vw;
+      margin: 12.81739vw auto; }
+      .promoComponent .promo__content .promo__urlaubsgluck-content {
+        display: none; }
+      .promoComponent .promo__content .promo__share-dreams {
+        line-height: 5.81055vw;
+        font-size: 52px; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 2.39258vw;
+        font-size: 24px; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        width: 230px;
+        margin-top: 3.24707vw; }
+  .promoComponent {
+    height: 47.85158vw;
+    background: url("../images/promo-desktop-bg.png") no-repeat; }
+    .promoComponent .promo__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 1040px;
+      height: 35px;
+      margin-top: 0; }
+      .promoComponent .promo__header .promo__urlaubsgluck-header {
+        display: block;
+        margin-top: -15px;
+        margin-left: 100px;
+        color: #fff;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.03418vw; }
+      .promoComponent .promo__header .promo__button {
+        margin-top: -24px; }
+    .promoComponent .promo__content {
+      width: 30.76173vw;
+      height: 16.40626vw;
+      margin-top: 8.03223vw; }
+      .promoComponent .promo__content .promo__share-dreams {
+        margin-left: 90px;
+        line-height: 3.34961vw; }
+      .promoComponent .promo__content .promo__perfect-partner {
+        margin-top: 1.36719vw;
+        text-align: center;
+        padding-left: 4.78516vw; }
+      .promoComponent .promo__content .promo__find-partner-button {
+        margin-top: 2.05078vw;
+        margin-left: 4.78516vw; } }
+
+@media (max-width: 414px) {
+  .how-it-worksComponent {
+    height: 254.6875vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 11.5625vw;
+      margin-bottom: 5.3125vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 93.75vw;
+      height: 75vw;
+      margin: 3.125vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 81.25vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.3125vw solid #ff4e50;
+          border-radius: 4.6875vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 4.6875vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 4.6875vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; } }
+@media (min-width: 415px) and (max-width: 667px) {
+  .how-it-worksComponent {
+    height: 143.4889vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 6.51422vw;
+      margin-bottom: 2.99302vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 52.818vw;
+      height: 42.2544vw;
+      margin: 1.7606vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 45.7756vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.17606vw solid #ff4e50;
+          border-radius: 2.6409vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 2.6409vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 2.6409vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; } }
+@media (min-width: 668px) and (max-width: 768px) {
+  .how-it-worksComponent {
+    height: 106.12278vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 4.81784vw;
+      margin-bottom: 2.2136vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 39.0636vw;
+      height: 31.25088vw;
+      margin: 1.30212vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 33.85512vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.13021vw solid #ff4e50;
+          border-radius: 1.95318vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 1.95318vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 1.95318vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; }
+  .how-it-worksComponent {
+    height: 72.26766vw;
+    margin: 0 auto 100px; }
+    .how-it-worksComponent .how-it-works__title {
+      width: 100%;
+      margin-top: 98px;
+      margin-left: 5px; }
+    .how-it-worksComponent .how-it-works__slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 235px;
+        height: 400px;
+        background-size: cover;
+        margin: 20px 10px; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .how-it-worksComponent {
+    height: 79.59006vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 3.61329vw;
+      margin-bottom: 1.66016vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 29.29696vw;
+      height: 23.43756vw;
+      margin: 0.97657vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25.3907vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.09766vw solid #ff4e50;
+          border-radius: 1.46485vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 1.46485vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 1.46485vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; }
+  .how-it-worksComponent {
+    height: 54.19937vw;
+    margin: 0 auto 100px; }
+    .how-it-worksComponent .how-it-works__title {
+      width: 100%;
+      margin-top: 98px;
+      margin-left: 5px; }
+    .how-it-worksComponent .how-it-works__slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 235px;
+        height: 400px;
+        background-size: cover;
+        margin: 20px 10px; } }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .how-it-worksComponent {
+    height: 76.40646vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 3.46876vw;
+      margin-bottom: 1.59375vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 28.12508vw;
+      height: 22.50006vw;
+      margin: 0.9375vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 24.37507vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.09375vw solid #ff4e50;
+          border-radius: 1.40625vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 1.40625vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 1.40625vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; }
+  .how-it-worksComponent {
+    height: 52.03139vw;
+    margin: 0 auto 100px; }
+    .how-it-worksComponent .how-it-works__title {
+      width: 100%;
+      margin-top: 98px;
+      margin-left: 5px; }
+    .how-it-worksComponent .how-it-works__slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 235px;
+        height: 400px;
+        background-size: cover;
+        margin: 20px 10px; }
+  .how-it-worksComponent {
+    width: 88.12524vw;
+    height: 52.03139vw;
+    margin: 0 110px; }
+    .how-it-worksComponent .how-it-works__title {
+      text-align: center;
+      margin-top: -98px; }
+    .how-it-worksComponent .how-it-works__slider {
+      width: 940px;
+      margin-top: -5px; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 300px;
+        height: 400px; } }
+@media (min-width: 1367px) and (max-width: 1680px) {
+  .how-it-worksComponent {
+    height: 71.63105vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 3.25196vw;
+      margin-bottom: 1.49414vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 26.36726vw;
+      height: 21.09381vw;
+      margin: 0.87891vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 22.85162vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.08789vw solid #ff4e50;
+          border-radius: 1.31836vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 1.31836vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 1.31836vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; }
+  .how-it-worksComponent {
+    height: 48.77943vw;
+    margin: 0 auto 100px; }
+    .how-it-worksComponent .how-it-works__title {
+      width: 100%;
+      margin-top: 98px;
+      margin-left: 5px; }
+    .how-it-worksComponent .how-it-works__slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 235px;
+        height: 400px;
+        background-size: cover;
+        margin: 20px 10px; }
+  .how-it-worksComponent {
+    width: 82.61741vw;
+    height: 48.77943vw;
+    margin: 0 110px; }
+    .how-it-worksComponent .how-it-works__title {
+      text-align: center;
+      margin-top: -98px; }
+    .how-it-worksComponent .how-it-works__slider {
+      width: 940px;
+      margin-top: -5px; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 300px;
+        height: 400px; } }
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .how-it-worksComponent {
+    height: 63.67204vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 2.89063vw;
+      margin-bottom: 1.32813vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 23.43756vw;
+      height: 18.75005vw;
+      margin: 0.78125vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 20.31255vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.07813vw solid #ff4e50;
+          border-radius: 1.17188vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 1.17188vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 1.17188vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; }
+  .how-it-worksComponent {
+    height: 43.35949vw;
+    margin: 0 auto 100px; }
+    .how-it-worksComponent .how-it-works__title {
+      width: 100%;
+      margin-top: 98px;
+      margin-left: 5px; }
+    .how-it-worksComponent .how-it-works__slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 235px;
+        height: 400px;
+        background-size: cover;
+        margin: 20px 10px; }
+  .how-it-worksComponent {
+    width: 73.43769vw;
+    height: 43.35949vw;
+    margin: 0 110px; }
+    .how-it-worksComponent .how-it-works__title {
+      text-align: center;
+      margin-top: -98px; }
+    .how-it-worksComponent .how-it-works__slider {
+      width: 940px;
+      margin-top: -5px; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 300px;
+        height: 400px; } }
+@media (min-width: 1921px) {
+  .how-it-worksComponent {
+    height: 55.71291vw; }
+    .how-it-worksComponent .how-it-works__title {
+      margin-top: 2.5293vw;
+      margin-bottom: 1.16211vw;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center; }
+    .how-it-worksComponent .how-it-works__step {
+      display: flex;
+      align-items: flex-end;
+      width: 20.50782vw;
+      height: 16.40626vw;
+      margin: 0.68359vw auto; }
+      .how-it-worksComponent .how-it-works__step .how-it-works__step-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 17.77344vw;
+        height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        text-align: left; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-button {
+          width: 70px;
+          height: 20px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+          background-color: #ff4e50;
+          border: 0.06836vw solid #ff4e50;
+          border-radius: 1.02539vw;
+          color: #fff;
+          font-family: 'Montserrat Regular', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 10px;
+          letter-spacing: 2px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
+          margin-bottom: 20px;
+          color: #fff;
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px; }
+        .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
+          color: #b1afac;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 15px; }
+    .how-it-worksComponent .how-it-works__step1 {
+      background: url("../images/step1-bg.png") no-repeat; }
+    .how-it-worksComponent .how-it-works__step2 {
+      background: url("../images/step2-bg.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-button {
+        margin-bottom: 1.02539vw; }
+      .how-it-worksComponent .how-it-works__step2 .how-it-works__step-content .how-it-works__step-title {
+        margin-bottom: 1.02539vw; }
+    .how-it-worksComponent .how-it-works__step3 {
+      background: url("../images/step3-bg.png") no-repeat; }
+  .how-it-worksComponent {
+    height: 37.93947vw;
+    margin: 0 auto 100px; }
+    .how-it-worksComponent .how-it-works__title {
+      width: 100%;
+      margin-top: 98px;
+      margin-left: 5px; }
+    .how-it-worksComponent .how-it-works__slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 235px;
+        height: 400px;
+        background-size: cover;
+        margin: 20px 10px; }
+  .how-it-worksComponent {
+    width: 64.25784vw;
+    height: 37.93947vw;
+    margin: 0 110px; }
+    .how-it-worksComponent .how-it-works__title {
+      text-align: center;
+      margin-top: -98px; }
+    .how-it-worksComponent .how-it-works__slider {
+      width: 940px;
+      margin-top: -5px; }
+      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
+        width: 300px;
+        height: 400px; } }
+
+@media (max-width: 414px) {
+  .partnersComponent {
+    height: 340.625vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 87.5vw;
+      height: 309.375vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 68.75vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; } }
+@media (min-width: 415px) and (max-width: 667px) {
+  .partnersComponent {
+    height: 191.9054vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 49.2968vw;
+      height: 174.2994vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 38.7332vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; } }
+@media (min-width: 668px) and (max-width: 768px) {
+  .partnersComponent {
+    height: 141.93108vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 36.45936vw;
+      height: 128.90988vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 28.64664vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .partnersComponent {
+    height: 94.4037vw;
+    margin-top: 135px;
+    margin-left: -10px; }
+    .partnersComponent .partners__title {
+      width: 100%; }
+    .partnersComponent .partners__content {
+      flex-wrap: wrap;
+      width: 480px;
+      height: 490px;
+      margin: 35px auto; }
+      .partnersComponent .partners__content .partners__block {
+        margin: 0 10px;
+        width: 220px; }
+    .partnersComponent .partners__button {
+      width: 192px;
+      height: 40px;
+      margin-left: 300px; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .partnersComponent {
+    height: 106.44561vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 27.34383vw;
+      height: 96.67995vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 21.48443vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .partnersComponent {
+    height: 70.80098vw;
+    margin-top: 135px;
+    margin-left: -10px; }
+    .partnersComponent .partners__title {
+      width: 100%; }
+    .partnersComponent .partners__content {
+      flex-wrap: wrap;
+      width: 480px;
+      height: 490px;
+      margin: 35px auto; }
+      .partnersComponent .partners__content .partners__block {
+        margin: 0 10px;
+        width: 220px; }
+    .partnersComponent .partners__button {
+      width: 192px;
+      height: 40px;
+      margin-left: 300px; } }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .partnersComponent {
+    height: 102.18778vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 26.25007vw;
+      height: 92.81276vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 20.62506vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .partnersComponent {
+    height: 67.96894vw;
+    margin-top: 135px;
+    margin-left: -10px; }
+    .partnersComponent .partners__title {
+      width: 100%; }
+    .partnersComponent .partners__content {
+      flex-wrap: wrap;
+      width: 480px;
+      height: 490px;
+      margin: 35px auto; }
+      .partnersComponent .partners__content .partners__block {
+        margin: 0 10px;
+        width: 220px; }
+    .partnersComponent .partners__button {
+      width: 192px;
+      height: 40px;
+      margin-left: 300px; }
+  .partnersComponent {
+    height: 44.06262vw;
+    margin-top: -155px; }
+    .partnersComponent .partners__title {
+      margin-left: 50px; }
+    .partnersComponent .partners__content {
+      width: 940px;
+      margin: -110px 260px;
+      text-align: center;
+      flex-direction: row;
+      flex-wrap: nowrap; }
+    .partnersComponent .partners__button {
+      margin: 35px 635px; } }
+@media (min-width: 1367px) and (max-width: 1680px) {
+  .partnersComponent {
+    height: 95.80104vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 24.60944vw;
+      height: 87.01195vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 19.33599vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .partnersComponent {
+    height: 63.72087vw;
+    margin-top: 135px;
+    margin-left: -10px; }
+    .partnersComponent .partners__title {
+      width: 100%; }
+    .partnersComponent .partners__content {
+      flex-wrap: wrap;
+      width: 480px;
+      height: 490px;
+      margin: 35px auto; }
+      .partnersComponent .partners__content .partners__block {
+        margin: 0 10px;
+        width: 220px; }
+    .partnersComponent .partners__button {
+      width: 192px;
+      height: 40px;
+      margin-left: 300px; }
+  .partnersComponent {
+    height: 41.3087vw;
+    margin-top: -155px; }
+    .partnersComponent .partners__title {
+      margin-left: 50px; }
+    .partnersComponent .partners__content {
+      width: 940px;
+      margin: -110px 260px;
+      text-align: center;
+      flex-direction: row;
+      flex-wrap: nowrap; }
+    .partnersComponent .partners__button {
+      margin: 35px 635px; } }
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .partnersComponent {
+    height: 85.15647vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 21.87506vw;
+      height: 77.34395vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 17.18754vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .partnersComponent {
+    height: 56.64077vw;
+    margin-top: 135px;
+    margin-left: -10px; }
+    .partnersComponent .partners__title {
+      width: 100%; }
+    .partnersComponent .partners__content {
+      flex-wrap: wrap;
+      width: 480px;
+      height: 490px;
+      margin: 35px auto; }
+      .partnersComponent .partners__content .partners__block {
+        margin: 0 10px;
+        width: 220px; }
+    .partnersComponent .partners__button {
+      width: 192px;
+      height: 40px;
+      margin-left: 300px; }
+  .partnersComponent {
+    height: 36.71884vw;
+    margin-top: -155px; }
+    .partnersComponent .partners__title {
+      margin-left: 50px; }
+    .partnersComponent .partners__content {
+      width: 940px;
+      margin: -110px 260px;
+      text-align: center;
+      flex-direction: row;
+      flex-wrap: nowrap; }
+    .partnersComponent .partners__button {
+      margin: 35px 635px; } }
+@media (min-width: 1921px) {
+  .partnersComponent {
+    height: 74.51175vw;
+    margin: 0 auto; }
+    .partnersComponent .partners__title {
+      margin: 0 auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .partnersComponent .partners__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 19.14063vw;
+      height: 67.67581vw;
+      margin: 18px auto; }
+      .partnersComponent .partners__content .partners__block {
+        width: 15.03907vw;
+        text-align: center; }
+        .partnersComponent .partners__content .partners__block .partners__photo {
+          width: 125px;
+          height: 125px; }
+        .partnersComponent .partners__content .partners__block .partners__name {
+          font-family: 'Montserrat Bold', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: center;
+          padding-top: 10px; }
+        .partnersComponent .partners__content .partners__block .partners__about {
+          padding-top: 17px;
+          color: #8f8f8f;
+          font-family: 'Roboto Light', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          line-height: 17px; }
+    .partnersComponent .partners__button {
+      width: 280px;
+      height: 40px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      background: none;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .partnersComponent {
+    height: 49.56057vw;
+    margin-top: 135px;
+    margin-left: -10px; }
+    .partnersComponent .partners__title {
+      width: 100%; }
+    .partnersComponent .partners__content {
+      flex-wrap: wrap;
+      width: 480px;
+      height: 490px;
+      margin: 35px auto; }
+      .partnersComponent .partners__content .partners__block {
+        margin: 0 10px;
+        width: 220px; }
+    .partnersComponent .partners__button {
+      width: 192px;
+      height: 40px;
+      margin-left: 300px; }
+  .partnersComponent {
+    height: 32.12892vw;
+    margin-top: -155px; }
+    .partnersComponent .partners__title {
+      margin-left: 50px; }
+    .partnersComponent .partners__content {
+      width: 940px;
+      margin: -110px 260px;
+      text-align: center;
+      flex-direction: row;
+      flex-wrap: nowrap; }
+    .partnersComponent .partners__button {
+      margin: 35px 635px; } }
+
+@media (max-width: 414px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+@media (min-width: 415px) and (max-width: 667px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+@media (min-width: 668px) and (max-width: 768px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+
+@media (max-width: 414px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+@media (min-width: 415px) and (max-width: 667px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+@media (min-width: 668px) and (max-width: 768px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #333;
+            opacity: .7;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */
