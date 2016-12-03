@@ -1,0 +1,24 @@
+@import 'mobile';
+
+& {
+  height: 350px;
+
+  .search__title {
+    margin-top: 60px;
+  }
+
+  .search__tagline {
+    margin-top: 35px;
+  }
+
+  .search__input {
+    width: 240px;
+    margin-top: 40px;
+    margin-left: 190px;
+  }
+
+  .search__button {
+    width: 160px;
+    margin-left: -10px;
+  }
+}

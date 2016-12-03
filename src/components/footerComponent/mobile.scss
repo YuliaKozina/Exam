@@ -1,0 +1,64 @@
+& {
+  //width: px(640);
+  height: px(390);
+  border-top: 4px solid $colorRed;
+
+  .footer__title {
+    margin-top: px(40);
+    color: $colorRed;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+
+  .footer__menu {
+    width: 210px;
+    margin: px(10) auto;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+
+    .footer__link {
+      padding: px(14) px(10);
+      color: #858585;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+
+  .footer__partners__title {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:14px;
+    text-align: center;
+  }
+
+  .footer__designed-by {
+    margin-top: px(40);
+
+    .footer__designed-by-tagline {
+      color: #cccccc;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10px;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
+    .footer__designed-by-logo {
+      margin: px(10) px(200);
+    }
+  }
+}
+

@@ -1,5 +1,27 @@
 @import 'mobile';
 
 & {
+  height: 1025px;
+  margin-top: 177px;
 
+  .holidays__wrapper {
+    width: 748px;
+    margin: 0 auto;
+
+    .holidays__ideas_box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+
+      .holidays__idea {
+        width: 235px;
+        height: 310px;
+      }
+
+      .holidays__idea-large {
+        width: 493px;
+      }
+    }
+  }
 }

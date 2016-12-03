@@ -2438,8 +2438,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2494,8 +2492,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2550,8 +2546,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2568,7 +2562,23 @@ table {
             font-weight: 700;
             font-size: 22px;
             color: #fff;
-            text-align: center; } }
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .holidaysComponent {
     display: flex;
@@ -2606,8 +2616,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2624,7 +2632,363 @@ table {
             font-weight: 700;
             font-size: 22px;
             color: #fff;
-            text-align: center; } }
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; } }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
+@media (min-width: 1367px) and (max-width: 1680px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
+@media (min-width: 1921px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
 
 @media (max-width: 414px) {
   .holidaysComponent {
@@ -2663,8 +3027,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2719,8 +3081,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2775,8 +3135,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2793,7 +3151,23 @@ table {
             font-weight: 700;
             font-size: 22px;
             color: #fff;
-            text-align: center; } }
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .holidaysComponent {
     display: flex;
@@ -2831,8 +3205,6 @@ table {
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #333;
-            opacity: .7;
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
@@ -2849,6 +3221,1430 @@ table {
             font-weight: 700;
             font-size: 22px;
             color: #fff;
-            text-align: center; } }
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; } }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
+@media (min-width: 1367px) and (max-width: 1680px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
+@media (min-width: 1921px) {
+  .holidaysComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .holidaysComponent .holidays__wrapper {
+      display: flex;
+      flex-direction: column; }
+      .holidaysComponent .holidays__wrapper .holidays__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          margin-bottom: 10px;
+          width: 300px;
+          height: 120px;
+          position: relative;
+          background-image: url("../images/idea.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border-radius: 5px; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            z-index: 0; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+          .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #fff;
+            text-align: center; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: 177px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 748px;
+      margin: 0 auto; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 235px;
+          height: 310px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 493px; }
+  .holidaysComponent {
+    height: 1025px;
+    margin-top: -135px; }
+    .holidaysComponent .holidays__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .holidaysComponent .holidays__wrapper .holidays__ideas_box {
+        width: 100%;
+        margin-top: 11px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
+          width: 300px;
+          height: 310px;
+          margin-top: 10px; }
+        .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea-large {
+          width: 620px; } }
+
+@media (max-width: 414px) {
+  .searchComponent {
+    height: 71.875vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 4.6875vw 6.25vw;
+      padding-left: 4.6875vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 6.25vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; } }
+@media (min-width: 415px) and (max-width: 667px) {
+  .searchComponent {
+    height: 40.4938vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 2.6409vw 3.5212vw;
+      padding-left: 2.6409vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 3.5212vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; } }
+@media (min-width: 668px) and (max-width: 768px) {
+  .searchComponent {
+    height: 29.94876vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 1.95318vw 2.60424vw;
+      padding-left: 1.95318vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 2.60424vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 60px; }
+    .searchComponent .search__tagline {
+      margin-top: 35px; }
+    .searchComponent .search__input {
+      width: 240px;
+      margin-top: 40px;
+      margin-left: 190px; }
+    .searchComponent .search__button {
+      width: 160px;
+      margin-left: -10px; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .searchComponent {
+    height: 22.461vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 1.46485vw 1.95313vw;
+      padding-left: 1.46485vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 1.95313vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 60px; }
+    .searchComponent .search__tagline {
+      margin-top: 35px; }
+    .searchComponent .search__input {
+      width: 240px;
+      margin-top: 40px;
+      margin-left: 190px; }
+    .searchComponent .search__button {
+      width: 160px;
+      margin-left: -10px; } }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .searchComponent {
+    height: 21.56256vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 1.40625vw 1.87501vw;
+      padding-left: 1.40625vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 1.87501vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 60px; }
+    .searchComponent .search__tagline {
+      margin-top: 35px; }
+    .searchComponent .search__input {
+      width: 240px;
+      margin-top: 40px;
+      margin-left: 190px; }
+    .searchComponent .search__button {
+      width: 160px;
+      margin-left: -10px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 102px;
+      margin-left: 82px; }
+    .searchComponent .search__tagline {
+      margin-left: 85px; }
+    .searchComponent .search__input {
+      margin-left: 517px; }
+    .searchComponent .search__button {
+      margin-left: -20px; } }
+@media (min-width: 1367px) and (max-width: 1680px) {
+  .searchComponent {
+    height: 20.2149vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 1.31836vw 1.75782vw;
+      padding-left: 1.31836vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 1.75782vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 60px; }
+    .searchComponent .search__tagline {
+      margin-top: 35px; }
+    .searchComponent .search__input {
+      width: 240px;
+      margin-top: 40px;
+      margin-left: 190px; }
+    .searchComponent .search__button {
+      width: 160px;
+      margin-left: -10px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 102px;
+      margin-left: 82px; }
+    .searchComponent .search__tagline {
+      margin-left: 85px; }
+    .searchComponent .search__input {
+      margin-left: 517px; }
+    .searchComponent .search__button {
+      margin-left: -20px; } }
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .searchComponent {
+    height: 17.9688vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 1.17188vw 1.5625vw;
+      padding-left: 1.17188vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 1.5625vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 60px; }
+    .searchComponent .search__tagline {
+      margin-top: 35px; }
+    .searchComponent .search__input {
+      width: 240px;
+      margin-top: 40px;
+      margin-left: 190px; }
+    .searchComponent .search__button {
+      width: 160px;
+      margin-left: -10px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 102px;
+      margin-left: 82px; }
+    .searchComponent .search__tagline {
+      margin-left: 85px; }
+    .searchComponent .search__input {
+      margin-left: 517px; }
+    .searchComponent .search__button {
+      margin-left: -20px; } }
+@media (min-width: 1921px) {
+  .searchComponent {
+    height: 15.72266vw; }
+    .searchComponent .search__title {
+      margin-top: 27px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      line-height: 25px; }
+    .searchComponent .search__tagline {
+      margin-top: 15px;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center; }
+    .searchComponent .search__input {
+      width: 280px;
+      height: 40px;
+      margin: 1.02539vw 1.36719vw;
+      padding-left: 1.02539vw;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      color: #ccc;
+      font-family: 'Roboto Light', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px; }
+    .searchComponent .search__button {
+      width: 280px;
+      height: 40px;
+      margin: 0 1.36719vw;
+      box-sizing: border-box;
+      background-color: #ff4e50;
+      border: 1px solid #ff4e50;
+      border-radius: 20px;
+      color: #fff;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 60px; }
+    .searchComponent .search__tagline {
+      margin-top: 35px; }
+    .searchComponent .search__input {
+      width: 240px;
+      margin-top: 40px;
+      margin-left: 190px; }
+    .searchComponent .search__button {
+      width: 160px;
+      margin-left: -10px; }
+  .searchComponent {
+    height: 350px; }
+    .searchComponent .search__title {
+      margin-top: 102px;
+      margin-left: 82px; }
+    .searchComponent .search__tagline {
+      margin-left: 85px; }
+    .searchComponent .search__input {
+      margin-left: 517px; }
+    .searchComponent .search__button {
+      margin-left: -20px; } }
+
+@media (max-width: 414px) {
+  .footerComponent {
+    height: 60.9375vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 6.25vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 1.5625vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 2.1875vw 1.5625vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 6.25vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 1.5625vw 31.25vw; } }
+@media (min-width: 415px) and (max-width: 667px) {
+  .footerComponent {
+    height: 34.3317vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 3.5212vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 0.8803vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 1.23242vw 0.8803vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 3.5212vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 0.8803vw 17.606vw; } }
+@media (min-width: 668px) and (max-width: 768px) {
+  .footerComponent {
+    height: 25.39134vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 2.60424vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 0.65106vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 0.91148vw 0.65106vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 2.60424vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 0.65106vw 13.0212vw; }
+  .footerComponent {
+    height: 200px;
+    margin-top: -90px; }
+    .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 690px;
+      margin: 30px auto; }
+      .footerComponent .footer__wrapper .footer__title {
+        margin-top: 7px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 110px;
+        margin-top: -5px;
+        margin-left: 85px;
+        line-height: 40px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: normal; }
+      .footerComponent .footer__wrapper .footer__partners__title {
+        margin-top: 7px;
+        margin-left: 105px; }
+      .footerComponent .footer__wrapper .footer__designed-by {
+        margin-top: 12px;
+        margin-left: 50px; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footerComponent {
+    height: 19.04302vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 1.95313vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 0.48828vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 0.6836vw 0.48828vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 1.95313vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 0.48828vw 9.76565vw; }
+  .footerComponent {
+    height: 200px;
+    margin-top: -90px; }
+    .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 690px;
+      margin: 30px auto; }
+      .footerComponent .footer__wrapper .footer__title {
+        margin-top: 7px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 110px;
+        margin-top: -5px;
+        margin-left: 85px;
+        line-height: 40px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: normal; }
+      .footerComponent .footer__wrapper .footer__partners__title {
+        margin-top: 7px;
+        margin-left: 105px; }
+      .footerComponent .footer__wrapper .footer__designed-by {
+        margin-top: 12px;
+        margin-left: 50px; } }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .footerComponent {
+    height: 18.2813vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 1.87501vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 0.46875vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 0.65625vw 0.46875vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 1.87501vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 0.46875vw 9.37503vw; }
+  .footerComponent {
+    height: 200px;
+    margin-top: -90px; }
+    .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 690px;
+      margin: 30px auto; }
+      .footerComponent .footer__wrapper .footer__title {
+        margin-top: 7px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 110px;
+        margin-top: -5px;
+        margin-left: 85px;
+        line-height: 40px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: normal; }
+      .footerComponent .footer__wrapper .footer__partners__title {
+        margin-top: 7px;
+        margin-left: 105px; }
+      .footerComponent .footer__wrapper .footer__designed-by {
+        margin-top: 12px;
+        margin-left: 50px; }
+  .footerComponent {
+    height: 200px; }
+    .footerComponent .footer__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        height: 110px;
+        margin-left: 10px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: 14px; } }
+@media (min-width: 1367px) and (max-width: 1680px) {
+  .footerComponent {
+    height: 17.13872vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 1.75782vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 0.43945vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 0.61524vw 0.43945vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 1.75782vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 0.43945vw 8.78909vw; }
+  .footerComponent {
+    height: 200px;
+    margin-top: -90px; }
+    .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 690px;
+      margin: 30px auto; }
+      .footerComponent .footer__wrapper .footer__title {
+        margin-top: 7px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 110px;
+        margin-top: -5px;
+        margin-left: 85px;
+        line-height: 40px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: normal; }
+      .footerComponent .footer__wrapper .footer__partners__title {
+        margin-top: 7px;
+        margin-left: 105px; }
+      .footerComponent .footer__wrapper .footer__designed-by {
+        margin-top: 12px;
+        margin-left: 50px; }
+  .footerComponent {
+    height: 200px; }
+    .footerComponent .footer__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        height: 110px;
+        margin-left: 10px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: 14px; } }
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .footerComponent {
+    height: 15.23441vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 1.5625vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 0.39063vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 0.54688vw 0.39063vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 1.5625vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 0.39063vw 7.81252vw; }
+  .footerComponent {
+    height: 200px;
+    margin-top: -90px; }
+    .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 690px;
+      margin: 30px auto; }
+      .footerComponent .footer__wrapper .footer__title {
+        margin-top: 7px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 110px;
+        margin-top: -5px;
+        margin-left: 85px;
+        line-height: 40px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: normal; }
+      .footerComponent .footer__wrapper .footer__partners__title {
+        margin-top: 7px;
+        margin-left: 105px; }
+      .footerComponent .footer__wrapper .footer__designed-by {
+        margin-top: 12px;
+        margin-left: 50px; }
+  .footerComponent {
+    height: 200px; }
+    .footerComponent .footer__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        height: 110px;
+        margin-left: 10px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: 14px; } }
+@media (min-width: 1921px) {
+  .footerComponent {
+    height: 13.33008vw;
+    border-top: 4px solid #ff4e50; }
+    .footerComponent .footer__title {
+      margin-top: 1.36719vw;
+      color: #ff4e50;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: .5px; }
+    .footerComponent .footer__menu {
+      width: 210px;
+      margin: 0.3418vw auto;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      line-height: 25px; }
+      .footerComponent .footer__menu .footer__link {
+        padding: 0.47852vw 0.3418vw;
+        color: #858585;
+        font-family: 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: none; }
+    .footerComponent .footer__partners__title {
+      font-family: 'Montserrat Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center; }
+    .footerComponent .footer__designed-by {
+      margin-top: 1.36719vw; }
+      .footerComponent .footer__designed-by .footer__designed-by-tagline {
+        color: #cccccc;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      .footerComponent .footer__designed-by .footer__designed-by-logo {
+        margin: 0.3418vw 6.83594vw; }
+  .footerComponent {
+    height: 200px;
+    margin-top: -90px; }
+    .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 690px;
+      margin: 30px auto; }
+      .footerComponent .footer__wrapper .footer__title {
+        margin-top: 7px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 110px;
+        margin-top: -5px;
+        margin-left: 85px;
+        line-height: 40px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: normal; }
+      .footerComponent .footer__wrapper .footer__partners__title {
+        margin-top: 7px;
+        margin-left: 105px; }
+      .footerComponent .footer__wrapper .footer__designed-by {
+        margin-top: 12px;
+        margin-left: 50px; }
+  .footerComponent {
+    height: 200px; }
+    .footerComponent .footer__wrapper {
+      width: 940px;
+      margin-left: 250px; }
+      .footerComponent .footer__wrapper .footer__menu {
+        height: 110px;
+        margin-left: 10px; }
+        .footerComponent .footer__wrapper .footer__menu .footer__link {
+          line-height: 14px; } }
 
 /*# sourceMappingURL=main.css.map */

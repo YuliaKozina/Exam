@@ -18,9 +18,9 @@ window.onload = function () {
         for (var i = 0; i <= 6; i++) {
 
             if (i == 4) {
-                images += '<div class="holidays__idea holidays__idea--wider animated fadeInLeft" style="background-image: url(' + data.hits[i].webformatURL + ');"><a href="' + data.hits[i].pageURL + '" target="_blank"><div class="idea__text_wrapper"><p class="idea__title">' + data.hits[i].tags + '</p></div></a></div>';
+                images += '<div class="holidays__idea holidays__idea-large animated fadeInLeft" style="background-image: url(' + data.hits[i].webformatURL + ');"><a href="' + data.hits[i].pageURL + '" target="_blank"><div class="idea__text_wrapper"><p class="idea__title">' + data.hits[i].tags + '</p></div></a></div>';
             } else if (i == 5) {
-                images += '<div class="holidays__idea holidays__idea--wider animated fadeInLeft" style="background-image: url(' + data.hits[i].webformatURL + ');"><a href="' + data.hits[i].pageURL + '" target="_blank"><div class="idea__text_wrapper"><p class="idea__title">' + data.hits[i].tags + '</p></div></a></div>';
+                images += '<div class="holidays__idea holidays__idea-large animated fadeInLeft" style="background-image: url(' + data.hits[i].webformatURL + ');"><a href="' + data.hits[i].pageURL + '" target="_blank"><div class="idea__text_wrapper"><p class="idea__title">' + data.hits[i].tags + '</p></div></a></div>';
 
             } else {
                 images += '<div class="holidays__idea animated fadeInLeft" style="background-image: url(' + data.hits[i].webformatURL + ');"><a href="' + data.hits[i].pageURL + '" target="_blank"><div class="idea__text_wrapper"><p class="idea__title">' + data.hits[i].tags + '</p></div></a></div>';
