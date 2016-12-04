@@ -1,19 +1,15 @@
 & {
-  //width: px(640);
   height: px(2180);
   margin: 0 auto;
 
   .partners__title {
-    //width: 100%;
     margin: 0 auto;
     font-family: 'Montserrat Bold', sans-serif;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    text-align: center;
     line-height: 25px;
-    //margin-top: px(-8);
-    //letter-spacing: 1px;
+    text-align: center;
   }
 
   .partners__content {
@@ -28,33 +24,30 @@
     .partners__block {
       width: px(440);
       text-align: center;
-      //height: auto;
-      //margin: 0 auto 40px;
 
       .partners__photo {
         width: 125px;
         height: 125px;
-        //padding-top: 5px;
       }
 
       .partners__name {
+        padding-top: 10px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px;
         text-align: center;
-        padding-top: 10px;
       }
 
       .partners__about {
         padding-top: 17px;
         color: #8f8f8f;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
-        text-align: center;
         line-height: 17px;
+        text-align: center;
       }
     }
   }
@@ -63,15 +56,15 @@
     width: 280px;
     height: 40px;
     margin-left: 20px;
-    box-sizing: border-box;
     border: 2px solid $colorRed;
     border-radius: 20px;
+    box-sizing: border-box;
     background: none;
     color: $colorRed;
     font-family: 'Montserrat Bold', sans-serif;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
   }
 }
 

@@ -1,23 +1,22 @@
 & {
-  //width: px(640);
   height: px(460);
 
   .search__title {
     margin-top: 27px;
     font-family: 'Montserrat Bold', sans-serif;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    text-align: center;
     line-height: 25px;
+    text-align: center;
   }
 
   .search__tagline {
     margin-top: 15px;
     font-family: 'Roboto Light', sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
     text-align: center;
   }
 
@@ -26,28 +25,28 @@
     height: 40px;
     margin: px(30) px(40);
     padding-left: px(30);
-    box-sizing: border-box;
     border: 1px solid #cccccc;
     border-radius: 5px;
+    box-sizing: border-box;
     color: #ccc;
     font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
   }
 
   .search__button {
     width: 280px;
     height: 40px;
     margin: 0 px(40);
-    box-sizing: border-box;
-    background-color: $colorRed;
     border: 1px solid $colorRed;
     border-radius: 20px;
+    box-sizing: border-box;
+    background-color: $colorRed;
     color: #fff;
     font-family: 'Montserrat Bold', sans-serif;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
   }
 }

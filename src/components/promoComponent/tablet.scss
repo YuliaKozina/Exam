@@ -1,7 +1,6 @@
 @import 'mobile';
 
 &{
-  //width: px(1536);
   height: 700px;
   background: url('../images/promo-tablet-bg.png') no-repeat;
   background-size: cover;
@@ -18,9 +17,9 @@
       display: block;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      font-size: 20px;
       letter-spacing: px(2);
     }
   }
@@ -40,7 +39,6 @@
     }
 
     .promo__perfect-partner{
-      //width: px(800);
       margin-top: px(70);
       font-size: 24px;
     }

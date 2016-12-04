@@ -1,9 +1,7 @@
 & {
-  //width: px(640);
   height: px(1080);
   background: url('../images/promo-mobile-bg.png') no-repeat;
   background-size: cover;
-  //background-size: 100% auto;
 
   .promo__header {
     width: px(340);
@@ -24,22 +22,21 @@
       .promo__sign-up-button {
         width: 90px;
         height: 35px;
-        //margin-top: px(55);
+        border: none;
+        background: none;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
         font-style: normal;
-        font-weight: 700;
         font-size: 14px;
-        background: none;
-        border: none;
+        font-weight: 700;
       }
       .promo__log-in-button:hover,
       .promo__sign-up-button:hover {
         width: 90px;
         height: 35px;
-        box-sizing: border-box;
         border: px(4) solid #fff;
         border-radius: px(30);
+        box-sizing: border-box;
       }
     }
   }
@@ -48,54 +45,48 @@
     width: px(600);
     height: px(360);
     margin: px(255) auto px(20);
-    //margin-left: px(20);
     color: #fff;
     text-align: center;
 
     .promo__urlaubsgluck-content {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      font-size: 20px;
       letter-spacing: px(1);
     }
 
     .promo__share-dreams {
       margin-top: px(64);
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 30px;
       font-style: normal;
       font-weight: 700;
-      font-size: 30px;
-      //letter-spacing: .5px;
       line-height: px(70);
     }
 
     .promo__perfect-partner {
       margin-top: px(24);
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 100;
-      font-size: 18px;
-      //line-height: 22px;
-      //letter-spacing: 0.5px;
     }
 
     .promo__find-partner-button {
       width: 280px;
       height: 40px;
       margin: px(20) auto;
-      text-align: center;
+      border-radius: 20px;
+      border: 1px solid $colorRed;
       box-sizing: border-box;
       background-color: $colorRed;
-      border: 1px solid $colorRed;
-      border-radius: 20px;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      //letter-spacing: px(1);
-
+      text-align: center;
     }
   }
 }

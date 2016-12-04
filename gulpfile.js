@@ -38,10 +38,10 @@ gulp.task('images', function(){
 });
 
 gulp.task('script', function () {
-    return gulp.src(['src/js/imagesService.js', 'src/js/script.js'])
+    return gulp.src(['src/js/imagesService.js', 'src/js/script.js', 'src/js/slider.js'])
         .pipe(babel({
             compact: false,
-            only: ['src/js/imagesService.js', 'src/js/script.js']
+            only: ['src/js/imagesService.js', 'src/js/script.js', 'src/js/slider.js']
         }))
         .pipe(concat('app.js'))
         .pipe(uglify())

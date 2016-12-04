@@ -212,20 +212,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.625vw solid #fff;
-          border-radius: 4.6875vw; }
+          border-radius: 4.6875vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 93.75vw;
       height: 56.25vw;
@@ -234,37 +234,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.15625vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 10vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 10.9375vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 3.75vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 3.125vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; } }
+        text-align: center; } }
 @media (min-width: 415px) and (max-width: 667px) {
   .promoComponent {
     height: 95.0724vw;
@@ -285,20 +285,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.35212vw solid #fff;
-          border-radius: 2.6409vw; }
+          border-radius: 2.6409vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 52.818vw;
       height: 31.6908vw;
@@ -307,37 +307,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.08803vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 5.63392vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 6.1621vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 2.11272vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 1.7606vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; } }
+        text-align: center; } }
 @media (min-width: 668px) and (max-width: 768px) {
   .promoComponent {
     height: 70.31448vw;
@@ -358,20 +358,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.26042vw solid #fff;
-          border-radius: 1.95318vw; }
+          border-radius: 1.95318vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 39.0636vw;
       height: 23.43816vw;
@@ -380,37 +380,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.06511vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 4.16678vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 4.55742vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.56254vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 1.30212vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; }
+        text-align: center; }
   .promoComponent {
     height: 700px;
     background: url("../images/promo-tablet-bg.png") no-repeat;
@@ -426,9 +426,9 @@ table {
         display: block;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.13021vw; }
     .promoComponent .promo__content {
       width: 91.1484vw;
@@ -465,20 +465,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.19531vw solid #fff;
-          border-radius: 1.46485vw; }
+          border-radius: 1.46485vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 29.29696vw;
       height: 17.57817vw;
@@ -487,37 +487,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.04883vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 3.12501vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 3.41798vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.17188vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 0.97657vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; }
+        text-align: center; }
   .promoComponent {
     height: 700px;
     background: url("../images/promo-tablet-bg.png") no-repeat;
@@ -533,9 +533,9 @@ table {
         display: block;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.09766vw; }
     .promoComponent .promo__content {
       width: 68.35956vw;
@@ -572,20 +572,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.1875vw solid #fff;
-          border-radius: 1.40625vw; }
+          border-radius: 1.40625vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 28.12508vw;
       height: 16.87505vw;
@@ -594,37 +594,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.04688vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 3.00001vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 3.28126vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.125vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 0.9375vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; }
+        text-align: center; }
   .promoComponent {
     height: 700px;
     background: url("../images/promo-tablet-bg.png") no-repeat;
@@ -640,9 +640,9 @@ table {
         display: block;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.09375vw; }
     .promoComponent .promo__content {
       width: 65.62518vw;
@@ -675,9 +675,9 @@ table {
         margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.04688vw; }
       .promoComponent .promo__header .promo__button {
         margin-top: -24px; }
@@ -690,8 +690,8 @@ table {
         line-height: 4.59376vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.87501vw;
-        text-align: center;
-        padding-left: 6.56252vw; }
+        padding-left: 6.56252vw;
+        text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
         margin-top: 2.81251vw;
         margin-left: 6.56252vw; } }
@@ -715,20 +715,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.17578vw solid #fff;
-          border-radius: 1.31836vw; }
+          border-radius: 1.31836vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 26.36726vw;
       height: 15.82035vw;
@@ -737,37 +737,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.04395vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 2.81251vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 3.07618vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.05469vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 0.87891vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; }
+        text-align: center; }
   .promoComponent {
     height: 700px;
     background: url("../images/promo-tablet-bg.png") no-repeat;
@@ -783,9 +783,9 @@ table {
         display: block;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.08789vw; }
     .promoComponent .promo__content {
       width: 61.5236vw;
@@ -818,9 +818,9 @@ table {
         margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.04395vw; }
       .promoComponent .promo__header .promo__button {
         margin-top: -24px; }
@@ -833,8 +833,8 @@ table {
         line-height: 4.30665vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.75782vw;
-        text-align: center;
-        padding-left: 6.15236vw; }
+        padding-left: 6.15236vw;
+        text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
         margin-top: 2.63673vw;
         margin-left: 6.15236vw; } }
@@ -858,20 +858,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.15625vw solid #fff;
-          border-radius: 1.17188vw; }
+          border-radius: 1.17188vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 23.43756vw;
       height: 14.06254vw;
@@ -880,37 +880,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.03906vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 2.50001vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 2.73438vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 0.9375vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 0.78125vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; }
+        text-align: center; }
   .promoComponent {
     height: 700px;
     background: url("../images/promo-tablet-bg.png") no-repeat;
@@ -926,9 +926,9 @@ table {
         display: block;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.07813vw; }
     .promoComponent .promo__content {
       width: 54.68764vw;
@@ -961,9 +961,9 @@ table {
         margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.03906vw; }
       .promoComponent .promo__header .promo__button {
         margin-top: -24px; }
@@ -976,8 +976,8 @@ table {
         line-height: 3.82813vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.5625vw;
-        text-align: center;
-        padding-left: 5.46876vw; }
+        padding-left: 5.46876vw;
+        text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
         margin-top: 2.34376vw;
         margin-left: 5.46876vw; } }
@@ -1001,20 +1001,20 @@ table {
         .promoComponent .promo__header .promo__button .promo__sign-up-button {
           width: 90px;
           height: 35px;
+          border: none;
+          background: none;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
           font-style: normal;
-          font-weight: 700;
           font-size: 14px;
-          background: none;
-          border: none; }
+          font-weight: 700; }
         .promoComponent .promo__header .promo__button .promo__log-in-button:hover,
         .promoComponent .promo__header .promo__button .promo__sign-up-button:hover {
           width: 90px;
           height: 35px;
-          box-sizing: border-box;
           border: 0.13672vw solid #fff;
-          border-radius: 1.02539vw; }
+          border-radius: 1.02539vw;
+          box-sizing: border-box; }
     .promoComponent .promo__content {
       width: 20.50782vw;
       height: 12.30469vw;
@@ -1023,37 +1023,37 @@ table {
       text-align: center; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.03418vw; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-top: 2.1875vw;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
         line-height: 2.39258vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 0.82031vw;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 100;
-        font-size: 18px; }
+        font-weight: 100; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 280px;
         height: 40px;
         margin: 0.68359vw auto;
-        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff4e50;
         box-sizing: border-box;
         background-color: #ff4e50;
-        border: 1px solid #ff4e50;
-        border-radius: 20px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px; }
+        text-align: center; }
   .promoComponent {
     height: 700px;
     background: url("../images/promo-tablet-bg.png") no-repeat;
@@ -1069,9 +1069,9 @@ table {
         display: block;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.06836vw; }
     .promoComponent .promo__content {
       width: 47.85158vw;
@@ -1104,9 +1104,9 @@ table {
         margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 0.03418vw; }
       .promoComponent .promo__header .promo__button {
         margin-top: -24px; }
@@ -1119,8 +1119,8 @@ table {
         line-height: 3.34961vw; }
       .promoComponent .promo__content .promo__perfect-partner {
         margin-top: 1.36719vw;
-        text-align: center;
-        padding-left: 4.78516vw; }
+        padding-left: 4.78516vw;
+        text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
         margin-top: 2.05078vw;
         margin-left: 4.78516vw; } }
@@ -1132,9 +1132,9 @@ table {
       margin-top: 11.5625vw;
       margin-bottom: 5.3125vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1155,30 +1155,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.3125vw solid #ff4e50;
           border-radius: 4.6875vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1197,9 +1197,9 @@ table {
       margin-top: 6.51422vw;
       margin-bottom: 2.99302vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1220,30 +1220,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.17606vw solid #ff4e50;
           border-radius: 2.6409vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1262,9 +1262,9 @@ table {
       margin-top: 4.81784vw;
       margin-bottom: 2.2136vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1285,30 +1285,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.13021vw solid #ff4e50;
           border-radius: 1.95318vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1327,16 +1327,30 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider {
+    .how-it-worksComponent .how-it-works__slider-wrapper {
+      width: 747px;
+      overflow: hidden;
+      float: left; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 747px;
+        margin: 0 auto; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+          display: block;
+          width: 235px;
+          height: 400px;
+          background-size: cover;
+          margin: 20px 10px; }
+    .how-it-worksComponent .how-it-works__slider-arrow {
+      position: absolute;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 0 auto; }
-      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
-        width: 235px;
-        height: 400px;
-        background-size: cover;
-        margin: 20px 10px; } }
+      width: 687px;
+      margin: 50px 30px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .how-it-worksComponent {
     height: 79.59006vw; }
@@ -1344,9 +1358,9 @@ table {
       margin-top: 3.61329vw;
       margin-bottom: 1.66016vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1367,30 +1381,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.09766vw solid #ff4e50;
           border-radius: 1.46485vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1409,16 +1423,30 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider {
+    .how-it-worksComponent .how-it-works__slider-wrapper {
+      width: 747px;
+      overflow: hidden;
+      float: left; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 747px;
+        margin: 0 auto; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+          display: block;
+          width: 235px;
+          height: 400px;
+          background-size: cover;
+          margin: 20px 10px; }
+    .how-it-worksComponent .how-it-works__slider-arrow {
+      position: absolute;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 0 auto; }
-      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
-        width: 235px;
-        height: 400px;
-        background-size: cover;
-        margin: 20px 10px; } }
+      width: 687px;
+      margin: 50px 30px; } }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .how-it-worksComponent {
     height: 76.40646vw; }
@@ -1426,9 +1454,9 @@ table {
       margin-top: 3.46876vw;
       margin-bottom: 1.59375vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1449,30 +1477,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.09375vw solid #ff4e50;
           border-radius: 1.40625vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1491,16 +1519,30 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider {
+    .how-it-worksComponent .how-it-works__slider-wrapper {
+      width: 747px;
+      overflow: hidden;
+      float: left; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 747px;
+        margin: 0 auto; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+          display: block;
+          width: 235px;
+          height: 400px;
+          background-size: cover;
+          margin: 20px 10px; }
+    .how-it-worksComponent .how-it-works__slider-arrow {
+      position: absolute;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 0 auto; }
-      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
-        width: 235px;
-        height: 400px;
-        background-size: cover;
-        margin: 20px 10px; }
+      width: 687px;
+      margin: 50px 30px; }
   .how-it-worksComponent {
     width: 88.12524vw;
     height: 52.03139vw;
@@ -1521,9 +1563,9 @@ table {
       margin-top: 3.25196vw;
       margin-bottom: 1.49414vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1544,30 +1586,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.08789vw solid #ff4e50;
           border-radius: 1.31836vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1586,16 +1628,30 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider {
+    .how-it-worksComponent .how-it-works__slider-wrapper {
+      width: 747px;
+      overflow: hidden;
+      float: left; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 747px;
+        margin: 0 auto; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+          display: block;
+          width: 235px;
+          height: 400px;
+          background-size: cover;
+          margin: 20px 10px; }
+    .how-it-worksComponent .how-it-works__slider-arrow {
+      position: absolute;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 0 auto; }
-      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
-        width: 235px;
-        height: 400px;
-        background-size: cover;
-        margin: 20px 10px; }
+      width: 687px;
+      margin: 50px 30px; }
   .how-it-worksComponent {
     width: 82.61741vw;
     height: 48.77943vw;
@@ -1616,9 +1672,9 @@ table {
       margin-top: 2.89063vw;
       margin-bottom: 1.32813vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1639,30 +1695,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.07813vw solid #ff4e50;
           border-radius: 1.17188vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1681,16 +1737,30 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider {
+    .how-it-worksComponent .how-it-works__slider-wrapper {
+      width: 747px;
+      overflow: hidden;
+      float: left; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 747px;
+        margin: 0 auto; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+          display: block;
+          width: 235px;
+          height: 400px;
+          background-size: cover;
+          margin: 20px 10px; }
+    .how-it-worksComponent .how-it-works__slider-arrow {
+      position: absolute;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 0 auto; }
-      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
-        width: 235px;
-        height: 400px;
-        background-size: cover;
-        margin: 20px 10px; }
+      width: 687px;
+      margin: 50px 30px; }
   .how-it-worksComponent {
     width: 73.43769vw;
     height: 43.35949vw;
@@ -1711,9 +1781,9 @@ table {
       margin-top: 2.5293vw;
       margin-bottom: 1.16211vw;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
       text-align: center; }
     .how-it-worksComponent .how-it-works__step {
       display: flex;
@@ -1734,30 +1804,30 @@ table {
           width: 70px;
           height: 20px;
           margin-bottom: 20px;
-          box-sizing: border-box;
-          background-color: #ff4e50;
           border: 0.06836vw solid #ff4e50;
           border-radius: 1.02539vw;
+          box-sizing: border-box;
+          background-color: #ff4e50;
           color: #fff;
           font-family: 'Montserrat Regular', sans-serif;
+          font-size: 10px;
           font-style: normal;
           font-weight: 400;
-          font-size: 10px;
           line-height: 10px;
           letter-spacing: 2px; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-title {
           margin-bottom: 20px;
           color: #fff;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 700;
-          font-size: 24px; }
+          font-weight: 700; }
         .how-it-worksComponent .how-it-works__step .how-it-works__step-content .how-it-works__step-tagline {
           color: #b1afac;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
           line-height: 15px; }
     .how-it-worksComponent .how-it-works__step1 {
       background: url("../images/step1-bg.png") no-repeat; }
@@ -1776,16 +1846,30 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider {
+    .how-it-worksComponent .how-it-works__slider-wrapper {
+      width: 747px;
+      overflow: hidden;
+      float: left; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 747px;
+        margin: 0 auto; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+          display: block;
+          width: 235px;
+          height: 400px;
+          background-size: cover;
+          margin: 20px 10px; }
+    .how-it-worksComponent .how-it-works__slider-arrow {
+      position: absolute;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 0 auto; }
-      .how-it-worksComponent .how-it-works__slider .how-it-works__step {
-        width: 235px;
-        height: 400px;
-        background-size: cover;
-        margin: 20px 10px; }
+      width: 687px;
+      margin: 50px 30px; }
   .how-it-worksComponent {
     width: 64.25784vw;
     height: 37.93947vw;
@@ -1807,11 +1891,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -1827,34 +1911,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; } }
+      font-weight: 700; } }
 @media (min-width: 415px) and (max-width: 667px) {
   .partnersComponent {
     height: 191.9054vw;
@@ -1862,11 +1946,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -1882,34 +1966,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; } }
+      font-weight: 700; } }
 @media (min-width: 668px) and (max-width: 768px) {
   .partnersComponent {
     height: 141.93108vw;
@@ -1917,11 +2001,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -1937,34 +2021,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .partnersComponent {
     height: 94.4037vw;
     margin-top: 135px;
@@ -1990,11 +2074,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -2010,34 +2094,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .partnersComponent {
     height: 70.80098vw;
     margin-top: 135px;
@@ -2063,11 +2147,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -2083,34 +2167,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .partnersComponent {
     height: 67.96894vw;
     margin-top: 135px;
@@ -2149,11 +2233,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -2169,34 +2253,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .partnersComponent {
     height: 63.72087vw;
     margin-top: 135px;
@@ -2235,11 +2319,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -2255,34 +2339,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .partnersComponent {
     height: 56.64077vw;
     margin-top: 135px;
@@ -2321,11 +2405,11 @@ table {
     .partnersComponent .partners__title {
       margin: 0 auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .partnersComponent .partners__content {
       display: flex;
       flex-direction: column;
@@ -2341,34 +2425,34 @@ table {
           width: 125px;
           height: 125px; }
         .partnersComponent .partners__content .partners__block .partners__name {
+          padding-top: 10px;
           font-family: 'Montserrat Bold', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          text-align: center;
-          padding-top: 10px; }
+          text-align: center; }
         .partnersComponent .partners__content .partners__block .partners__about {
           padding-top: 17px;
           color: #8f8f8f;
           font-family: 'Roboto Light', sans-serif;
+          font-size: 14px;
           font-style: normal;
           font-weight: 300;
-          font-size: 14px;
-          text-align: center;
-          line-height: 17px; }
+          line-height: 17px;
+          text-align: center; }
     .partnersComponent .partners__button {
       width: 280px;
       height: 40px;
       margin-left: 20px;
-      box-sizing: border-box;
       border: 2px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
       background: none;
       color: #ff4e50;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .partnersComponent {
     height: 49.56057vw;
     margin-top: 135px;
@@ -2410,22 +2494,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2433,27 +2516,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; } }
 @media (min-width: 415px) and (max-width: 667px) {
   .holidaysComponent {
@@ -2464,22 +2547,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2487,27 +2569,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; } }
 @media (min-width: 668px) and (max-width: 768px) {
   .holidaysComponent {
@@ -2518,22 +2600,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2541,27 +2622,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -2588,22 +2669,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2611,27 +2691,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -2658,22 +2738,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2681,27 +2760,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -2743,22 +2822,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2766,27 +2844,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -2828,22 +2906,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2851,27 +2928,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -2913,22 +2990,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -2936,27 +3012,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -2999,22 +3075,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3022,27 +3097,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; } }
 @media (min-width: 415px) and (max-width: 667px) {
   .holidaysComponent {
@@ -3053,22 +3128,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3076,27 +3150,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; } }
 @media (min-width: 668px) and (max-width: 768px) {
   .holidaysComponent {
@@ -3107,22 +3181,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3130,27 +3203,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -3177,22 +3250,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3200,27 +3272,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -3247,22 +3319,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3270,27 +3341,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -3332,22 +3403,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3355,27 +3425,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -3417,22 +3487,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3440,27 +3509,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -3502,22 +3571,21 @@ table {
       display: flex;
       flex-direction: column; }
       .holidaysComponent .holidays__wrapper .holidays__title {
-        margin: 0 auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        text-align: center; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         display: flex;
         justify-content: center;
         flex-wrap: wrap; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea {
-          margin-bottom: 10px;
           width: 300px;
           height: 120px;
+          margin-bottom: 10px;
           position: relative;
           background-image: url("../images/idea.png");
           background-repeat: no-repeat;
@@ -3525,27 +3593,27 @@ table {
           background-position: center center;
           border-radius: 5px; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .holidays__idea::before {
-            content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            content: "";
             z-index: 0; }
         .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper {
           position: absolute;
+          top: 0;
+          left: 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0; }
+          height: 100%; }
           .holidaysComponent .holidays__wrapper .holidays__ideas_box .idea__text_wrapper .idea__title {
+            color: #fff;
             font-family: 'Montserrat Bold', sans-serif;
+            font-size: 22px;
             font-style: normal;
             font-weight: 700;
-            font-size: 22px;
-            color: #fff;
             text-align: center; }
   .holidaysComponent {
     height: 1025px;
@@ -3585,132 +3653,132 @@ table {
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 4.6875vw 6.25vw;
       padding-left: 4.6875vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 6.25vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; } }
+      font-weight: 700; } }
 @media (min-width: 415px) and (max-width: 667px) {
   .searchComponent {
     height: 40.4938vw; }
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 2.6409vw 3.5212vw;
       padding-left: 2.6409vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 3.5212vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; } }
+      font-weight: 700; } }
 @media (min-width: 668px) and (max-width: 768px) {
   .searchComponent {
     height: 29.94876vw; }
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 1.95318vw 2.60424vw;
       padding-left: 1.95318vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 2.60424vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .searchComponent {
     height: 350px; }
     .searchComponent .search__title {
@@ -3730,44 +3798,44 @@ table {
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 1.46485vw 1.95313vw;
       padding-left: 1.46485vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 1.95313vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .searchComponent {
     height: 350px; }
     .searchComponent .search__title {
@@ -3787,44 +3855,44 @@ table {
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 1.40625vw 1.87501vw;
       padding-left: 1.40625vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 1.87501vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .searchComponent {
     height: 350px; }
     .searchComponent .search__title {
@@ -3855,44 +3923,44 @@ table {
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 1.31836vw 1.75782vw;
       padding-left: 1.31836vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 1.75782vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .searchComponent {
     height: 350px; }
     .searchComponent .search__title {
@@ -3923,44 +3991,44 @@ table {
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 1.17188vw 1.5625vw;
       padding-left: 1.17188vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 1.5625vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .searchComponent {
     height: 350px; }
     .searchComponent .search__title {
@@ -3991,44 +4059,44 @@ table {
     .searchComponent .search__title {
       margin-top: 27px;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22px;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
     .searchComponent .search__tagline {
       margin-top: 15px;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
       text-align: center; }
     .searchComponent .search__input {
       width: 280px;
       height: 40px;
       margin: 1.02539vw 1.36719vw;
       padding-left: 1.02539vw;
-      box-sizing: border-box;
       border: 1px solid #cccccc;
       border-radius: 5px;
+      box-sizing: border-box;
       color: #ccc;
       font-family: 'Roboto Light', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px; }
+      font-weight: 300; }
     .searchComponent .search__button {
       width: 280px;
       height: 40px;
       margin: 0 1.36719vw;
-      box-sizing: border-box;
-      background-color: #ff4e50;
       border: 1px solid #ff4e50;
       border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #ff4e50;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px; }
+      font-weight: 700; }
   .searchComponent {
     height: 350px; }
     .searchComponent .search__title {
@@ -4071,35 +4139,35 @@ table {
       width: 210px;
       margin: 1.5625vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 2.1875vw 1.5625vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 6.25vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 1.5625vw 31.25vw; } }
 @media (min-width: 415px) and (max-width: 667px) {
@@ -4119,35 +4187,35 @@ table {
       width: 210px;
       margin: 0.8803vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 1.23242vw 0.8803vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 3.5212vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 0.8803vw 17.606vw; } }
 @media (min-width: 668px) and (max-width: 768px) {
@@ -4167,35 +4235,35 @@ table {
       width: 210px;
       margin: 0.65106vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 0.91148vw 0.65106vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 2.60424vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 0.65106vw 13.0212vw; }
   .footerComponent {
@@ -4243,35 +4311,35 @@ table {
       width: 210px;
       margin: 0.48828vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 0.6836vw 0.48828vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 1.95313vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 0.48828vw 9.76565vw; }
   .footerComponent {
@@ -4319,35 +4387,35 @@ table {
       width: 210px;
       margin: 0.46875vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 0.65625vw 0.46875vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 1.87501vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 0.46875vw 9.37503vw; }
   .footerComponent {
@@ -4381,13 +4449,15 @@ table {
   .footerComponent {
     height: 200px; }
     .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       width: 940px;
       margin-left: 250px; }
       .footerComponent .footer__wrapper .footer__menu {
-        height: 110px;
-        margin-left: 10px; }
+        height: 110px; }
         .footerComponent .footer__wrapper .footer__menu .footer__link {
-          line-height: 14px; } }
+          line-height: 5px; } }
 @media (min-width: 1367px) and (max-width: 1680px) {
   .footerComponent {
     height: 17.13872vw;
@@ -4405,35 +4475,35 @@ table {
       width: 210px;
       margin: 0.43945vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 0.61524vw 0.43945vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 1.75782vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 0.43945vw 8.78909vw; }
   .footerComponent {
@@ -4467,13 +4537,15 @@ table {
   .footerComponent {
     height: 200px; }
     .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       width: 940px;
       margin-left: 250px; }
       .footerComponent .footer__wrapper .footer__menu {
-        height: 110px;
-        margin-left: 10px; }
+        height: 110px; }
         .footerComponent .footer__wrapper .footer__menu .footer__link {
-          line-height: 14px; } }
+          line-height: 5px; } }
 @media (min-width: 1681px) and (max-width: 1920px) {
   .footerComponent {
     height: 15.23441vw;
@@ -4491,35 +4563,35 @@ table {
       width: 210px;
       margin: 0.39063vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 0.54688vw 0.39063vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 1.5625vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 0.39063vw 7.81252vw; }
   .footerComponent {
@@ -4553,13 +4625,15 @@ table {
   .footerComponent {
     height: 200px; }
     .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       width: 940px;
       margin-left: 250px; }
       .footerComponent .footer__wrapper .footer__menu {
-        height: 110px;
-        margin-left: 10px; }
+        height: 110px; }
         .footerComponent .footer__wrapper .footer__menu .footer__link {
-          line-height: 14px; } }
+          line-height: 5px; } }
 @media (min-width: 1921px) {
   .footerComponent {
     height: 13.33008vw;
@@ -4577,35 +4651,35 @@ table {
       width: 210px;
       margin: 0.3418vw auto;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       .footerComponent .footer__menu .footer__link {
         padding: 0.47852vw 0.3418vw;
         color: #858585;
         font-family: 'Roboto Light', sans-serif;
+        font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
         text-decoration: none; }
     .footerComponent .footer__partners__title {
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
       text-align: center; }
     .footerComponent .footer__designed-by {
       margin-top: 1.36719vw; }
       .footerComponent .footer__designed-by .footer__designed-by-tagline {
         color: #cccccc;
         font-family: 'Montserrat Bold', sans-serif;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        text-align: center;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-align: center; }
       .footerComponent .footer__designed-by .footer__designed-by-logo {
         margin: 0.3418vw 6.83594vw; }
   .footerComponent {
@@ -4639,12 +4713,14 @@ table {
   .footerComponent {
     height: 200px; }
     .footerComponent .footer__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       width: 940px;
       margin-left: 250px; }
       .footerComponent .footer__wrapper .footer__menu {
-        height: 110px;
-        margin-left: 10px; }
+        height: 110px; }
         .footerComponent .footer__wrapper .footer__menu .footer__link {
-          line-height: 14px; } }
+          line-height: 5px; } }
 
 /*# sourceMappingURL=main.css.map */

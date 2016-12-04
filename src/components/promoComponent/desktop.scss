@@ -1,10 +1,8 @@
 @import 'tablet';
 
 & {
-  //width: px(2880);
   height: px(1400);
   background: url('../images/promo-desktop-bg.png') no-repeat;
-  //background-size: contain;
 
   .promo__header {
     display: flex;
@@ -17,13 +15,12 @@
     .promo__urlaubsgluck-header {
       display: block;
       margin-top: -15px;
-      //margin-left: px(250);
       margin-left: 100px;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
+      font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      font-size: 20px;
       letter-spacing: px(1);
     }
 
@@ -39,19 +36,17 @@
 
     .promo__share-dreams {
       margin-left: 90px;
-      //text-align: center;
       line-height: px(98);
     }
 
     .promo__perfect-partner {
       margin-top: px(40);
-      text-align: center;
       padding-left: px(140);
+      text-align: center;
     }
 
     .promo__find-partner-button {
       margin-top: px(60);
-      //text-align: center;
       margin-left: px(140);
     }
   }
