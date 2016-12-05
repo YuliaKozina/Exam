@@ -5,6 +5,14 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Final Exam</title>
     <link type="text/css" rel="stylesheet" href="css/app.css"/>
+
+    <!--[if lte IE 9]>
+    <script src=dist/js/html5shiv.js></script>
+    <script src=dist/js/html5shiv-printshiv.js></script>
+    <script src=dist/js/flexibility.js></script>
+    <script src=dist/js/css3-mediaqueries.js></script>
+    <![endif]-->
+
 </head>
 <body>
 <section class="wrapper">
@@ -28,8 +36,8 @@
     <section class="how-it-worksComponent">
         <h1 class="how-it-works__title">How Urlaubsglück works?</h1>
         <div class="how-it-works__slider-wrapper">
-            <div class="how-it-works__slider">
-                <div class="how-it-works__step how-it-works__step1">
+            <ul class="how-it-works__slider">
+                <li class="how-it-works__step how-it-works__step1">
                     <div class="how-it-works__step-content">
                         <button class="how-it-works__step-button">STEP 1</button>
                         <h1 class="how-it-works__step-title">Sed leo enim, condimentum</h1>
@@ -37,8 +45,14 @@
                             lorem.
                             Donec rhoncus a leo sit amet facilisis.</p>
                     </div>
-                </div>
-                <div class="how-it-works__step how-it-works__step2">
+                    <div class="how-it-works__slider-arrow">
+                        <div class="how-it-works__slider-arrow-left"><img src="images/arrow-left.png" alt="arrow-left">
+                        </div>
+                        <div class="how-it-works__slider-arrow-right"><img src="images/arrow-right.png"
+                                                                           alt="arrow-right"></div>
+                    </div>
+                </li>
+                <li class="how-it-works__step how-it-works__step2">
                     <div class="how-it-works__step-content">
                         <button class="how-it-works__step-button">STEP 2</button>
                         <h1 class="how-it-works__step-title">Morbi velit risus</h1>
@@ -46,8 +60,14 @@
                             purus,
                             sit amet porttitor est.</p>
                     </div>
-                </div>
-                <div class="how-it-works__step how-it-works__step3">
+                    <div class="how-it-works__slider-arrow">
+                        <div class="how-it-works__slider-arrow-left"><img src="images/arrow-left.png" alt="arrow-left">
+                        </div>
+                        <div class="how-it-works__slider-arrow-right"><img src="images/arrow-right.png"
+                                                                           alt="arrow-right"></div>
+                    </div>
+                </li>
+                <li class="how-it-works__step how-it-works__step3">
                     <div class="how-it-works__step-content">
                         <button class="how-it-works__step-button">STEP 3</button>
                         <h1 class="how-it-works__step-title">Sed leo enim, condimentum</h1>
@@ -55,12 +75,14 @@
                             lorem.
                             Donec rhoncus a leo sit amet facilisis.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="how-it-works__slider-arrow">
-            <div class="how-it-works__slider-arrow-left"><img src="images/arrow-left.png" alt="arrow-left"></div>
-            <div class="how-it-works__slider-arrow-right"><img src="images/arrow-right.png" alt="arrow-right"></div>
+                    <div class="how-it-works__slider-arrow">
+                        <div class="how-it-works__slider-arrow-left"><img src="images/arrow-left.png" alt="arrow-left">
+                        </div>
+                        <div class="how-it-works__slider-arrow-right"><img src="images/arrow-right.png"
+                                                                           alt="arrow-right"></div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 

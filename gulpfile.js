@@ -48,6 +48,12 @@ gulp.task('script', function () {
         .pipe(gulp.dest('dist/js/'));
 });
 
+gulp.task('script:libs', function () {
+    return gulp.src("src/js/for ie/*.js")
+    //.pipe(uglify()) // Сжимаем JS файл
+        .pipe(gulp.dest('dist/js/')); // Выгружаем в папку dist/js
+});
+
 gulp.task('webserver', function() {
     gulp.src('dist')
         .pipe(server({
@@ -65,7 +71,7 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', function() {
-    gulp.start('pages', 'sass', 'images', 'fonts', 'script', 'webserver');
+    gulp.start('pages', 'sass', 'images', 'fonts', 'script', 'script:libs', 'webserver');
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/components/**/*.scss', ['sass']);
 });

@@ -1327,30 +1327,34 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider-wrapper {
-      width: 747px;
-      overflow: hidden;
-      float: left; }
-      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 747px;
-        margin: 0 auto; }
-        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
-          display: block;
-          width: 235px;
-          height: 400px;
-          background-size: cover;
-          margin: 20px 10px; }
-    .how-it-worksComponent .how-it-works__slider-arrow {
-      position: absolute;
+    .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 687px;
-      margin: 50px 30px; } }
+      width: 747px;
+      height: 400px;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+        display: flex;
+        justify-content: flex-end;
+        width: 235px;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 10px;
+        text-align: center; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step .how-it-works__slider-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          width: 215px;
+          padding-bottom: 315px;
+          padding-right: 15px; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step1 {
+        background: url("../images/step1-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step2 {
+        background: url("../images/step2-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step3 {
+        background: url("../images/step3-bg-tablet.png") no-repeat; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .how-it-worksComponent {
     height: 79.59006vw; }
@@ -1423,30 +1427,34 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider-wrapper {
-      width: 747px;
-      overflow: hidden;
-      float: left; }
-      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 747px;
-        margin: 0 auto; }
-        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
-          display: block;
-          width: 235px;
-          height: 400px;
-          background-size: cover;
-          margin: 20px 10px; }
-    .how-it-worksComponent .how-it-works__slider-arrow {
-      position: absolute;
+    .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 687px;
-      margin: 50px 30px; } }
+      width: 747px;
+      height: 400px;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+        display: flex;
+        justify-content: flex-end;
+        width: 235px;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 10px;
+        text-align: center; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step .how-it-works__slider-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          width: 215px;
+          padding-bottom: 315px;
+          padding-right: 15px; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step1 {
+        background: url("../images/step1-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step2 {
+        background: url("../images/step2-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step3 {
+        background: url("../images/step3-bg-tablet.png") no-repeat; } }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .how-it-worksComponent {
     height: 76.40646vw; }
@@ -1519,30 +1527,34 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider-wrapper {
-      width: 747px;
-      overflow: hidden;
-      float: left; }
-      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 747px;
-        margin: 0 auto; }
-        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
-          display: block;
-          width: 235px;
-          height: 400px;
-          background-size: cover;
-          margin: 20px 10px; }
-    .how-it-worksComponent .how-it-works__slider-arrow {
-      position: absolute;
+    .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 687px;
-      margin: 50px 30px; }
+      width: 747px;
+      height: 400px;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+        display: flex;
+        justify-content: flex-end;
+        width: 235px;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 10px;
+        text-align: center; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step .how-it-works__slider-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          width: 215px;
+          padding-bottom: 315px;
+          padding-right: 15px; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step1 {
+        background: url("../images/step1-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step2 {
+        background: url("../images/step2-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step3 {
+        background: url("../images/step3-bg-tablet.png") no-repeat; }
   .how-it-worksComponent {
     width: 88.12524vw;
     height: 52.03139vw;
@@ -1628,30 +1640,34 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider-wrapper {
-      width: 747px;
-      overflow: hidden;
-      float: left; }
-      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 747px;
-        margin: 0 auto; }
-        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
-          display: block;
-          width: 235px;
-          height: 400px;
-          background-size: cover;
-          margin: 20px 10px; }
-    .how-it-worksComponent .how-it-works__slider-arrow {
-      position: absolute;
+    .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 687px;
-      margin: 50px 30px; }
+      width: 747px;
+      height: 400px;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+        display: flex;
+        justify-content: flex-end;
+        width: 235px;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 10px;
+        text-align: center; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step .how-it-works__slider-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          width: 215px;
+          padding-bottom: 315px;
+          padding-right: 15px; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step1 {
+        background: url("../images/step1-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step2 {
+        background: url("../images/step2-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step3 {
+        background: url("../images/step3-bg-tablet.png") no-repeat; }
   .how-it-worksComponent {
     width: 82.61741vw;
     height: 48.77943vw;
@@ -1737,30 +1753,34 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider-wrapper {
-      width: 747px;
-      overflow: hidden;
-      float: left; }
-      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 747px;
-        margin: 0 auto; }
-        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
-          display: block;
-          width: 235px;
-          height: 400px;
-          background-size: cover;
-          margin: 20px 10px; }
-    .how-it-worksComponent .how-it-works__slider-arrow {
-      position: absolute;
+    .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 687px;
-      margin: 50px 30px; }
+      width: 747px;
+      height: 400px;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+        display: flex;
+        justify-content: flex-end;
+        width: 235px;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 10px;
+        text-align: center; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step .how-it-works__slider-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          width: 215px;
+          padding-bottom: 315px;
+          padding-right: 15px; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step1 {
+        background: url("../images/step1-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step2 {
+        background: url("../images/step2-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step3 {
+        background: url("../images/step3-bg-tablet.png") no-repeat; }
   .how-it-worksComponent {
     width: 73.43769vw;
     height: 43.35949vw;
@@ -1846,30 +1866,34 @@ table {
       width: 100%;
       margin-top: 98px;
       margin-left: 5px; }
-    .how-it-worksComponent .how-it-works__slider-wrapper {
-      width: 747px;
-      overflow: hidden;
-      float: left; }
-      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 747px;
-        margin: 0 auto; }
-        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
-          display: block;
-          width: 235px;
-          height: 400px;
-          background-size: cover;
-          margin: 20px 10px; }
-    .how-it-worksComponent .how-it-works__slider-arrow {
-      position: absolute;
+    .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 687px;
-      margin: 50px 30px; }
+      width: 747px;
+      height: 400px;
+      margin: 0 auto; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step {
+        display: flex;
+        justify-content: flex-end;
+        width: 235px;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 10px;
+        text-align: center; }
+        .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step .how-it-works__slider-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          width: 215px;
+          padding-bottom: 315px;
+          padding-right: 15px; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step1 {
+        background: url("../images/step1-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step2 {
+        background: url("../images/step2-bg-tablet.png") no-repeat; }
+      .how-it-worksComponent .how-it-works__slider-wrapper .how-it-works__slider .how-it-works__step3 {
+        background: url("../images/step3-bg-tablet.png") no-repeat; }
   .how-it-worksComponent {
     width: 64.25784vw;
     height: 37.93947vw;

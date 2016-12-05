@@ -11,49 +11,47 @@
   }
 
   .how-it-works__slider-wrapper {
-    width: 747px;
-    overflow: hidden;
-    float: left;
+
+
 
     .how-it-works__slider {
-      position: relative;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       width: 747px;
+      height: 400px;
       margin: 0 auto;
 
       .how-it-works__step {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
         width: 235px;
         height: 400px;
-        background-size: cover;
+        background-size: 100%;
         margin: 20px 10px;
+        text-align: center;
 
+        .how-it-works__slider-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          width: 215px;
+          padding-bottom: 315px;
+          padding-right: 15px;
+        }
+      }
+
+      .how-it-works__step1 {
+        background: url('../images/step1-bg-tablet.png') no-repeat;
+      }
+
+      .how-it-works__step2 {
+        background: url('../images/step2-bg-tablet.png') no-repeat;
+      }
+
+      .how-it-works__step3 {
+        background: url('../images/step3-bg-tablet.png') no-repeat;
       }
     }
-  }
-
-  .how-it-works__slider-arrow {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 687px;
-    margin: 50px 30px;
-
-    //.how-it-works__slider-arrow-left {
-    //  position: absolute;
-    //  //float: left;
-    //  margin-top: 50px;
-    //  margin-left: 30px;
-    //}
-    //
-    //.how-it-works__slider-arrow-right {
-    //  position: absolute;
-    //  //float: left;
-    //  margin-top: 50px;
-    //  margin-left: 30px;
-    //}
   }
 }
