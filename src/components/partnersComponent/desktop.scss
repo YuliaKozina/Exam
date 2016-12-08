@@ -1,7 +1,7 @@
 @import 'tablet';
 
 & {
-  height: px(940);
+  height: 490px;
   margin-top: -155px;
 
   .partners__title {
@@ -10,13 +10,13 @@
 
   .partners__content {
     width: 940px;
-    margin: -110px 260px;
+    margin: -110px auto;
     text-align: center;
     flex-direction: row;
     flex-wrap: nowrap;
   }
 
   .partners__button {
-    margin: 35px 635px;
+    margin: 35px 620px;
   }
 }

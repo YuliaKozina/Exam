@@ -433,18 +433,18 @@ table {
     .promoComponent .promo__content {
       width: 91.1484vw;
       height: 31.25088vw;
-      margin: 24.41475vw auto; }
+      margin: 150px auto; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         display: none; }
       .promoComponent .promo__content .promo__share-dreams {
-        line-height: 11.06802vw;
+        line-height: 55px;
         font-size: 52px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 4.55742vw;
+        margin-top: 35px;
         font-size: 24px; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 230px;
-        margin-top: 6.18507vw; } }
+        margin-top: 45px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .promoComponent {
     height: 52.73452vw;
@@ -540,18 +540,18 @@ table {
     .promoComponent .promo__content {
       width: 68.35956vw;
       height: 23.43756vw;
-      margin: 18.3106vw auto; }
+      margin: 150px auto; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         display: none; }
       .promoComponent .promo__content .promo__share-dreams {
-        line-height: 8.3008vw;
+        line-height: 55px;
         font-size: 52px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 3.41798vw;
+        margin-top: 35px;
         font-size: 24px; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 230px;
-        margin-top: 4.63868vw; } }
+        margin-top: 45px; } }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .promoComponent {
     height: 50.62514vw;
@@ -647,18 +647,18 @@ table {
     .promoComponent .promo__content {
       width: 65.62518vw;
       height: 22.50006vw;
-      margin: 17.57817vw auto; }
+      margin: 150px auto; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         display: none; }
       .promoComponent .promo__content .promo__share-dreams {
-        line-height: 7.96877vw;
+        line-height: 55px;
         font-size: 52px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 3.28126vw;
+        margin-top: 35px;
         font-size: 24px; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 230px;
-        margin-top: 4.45314vw; }
+        margin-top: 45px; }
   .promoComponent {
     height: 65.62518vw;
     background: url("../images/promo-desktop-bg.png") no-repeat; }
@@ -668,33 +668,28 @@ table {
       justify-content: space-between;
       width: 1040px;
       height: 35px;
-      margin-top: 0; }
+      margin: 0 auto; }
       .promoComponent .promo__header .promo__urlaubsgluck-header {
         display: block;
-        margin-top: -15px;
-        margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        letter-spacing: 0.04688vw; }
-      .promoComponent .promo__header .promo__button {
-        margin-top: -24px; }
+        letter-spacing: .5px; }
     .promoComponent .promo__content {
-      width: 42.18762vw;
-      height: 22.50006vw;
-      margin-top: 11.01566vw; }
+      width: 600px;
+      height: 240px;
+      margin-top: 220px; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-left: 90px;
-        line-height: 4.59376vw; }
+        line-height: 55px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 1.87501vw;
-        padding-left: 6.56252vw;
+        margin-top: 20px;
+        padding-left: 85px;
         text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
-        margin-top: 2.81251vw;
-        margin-left: 6.56252vw; } }
+        margin-left: 70px; } }
 @media (min-width: 1367px) and (max-width: 1680px) {
   .promoComponent {
     height: 47.46106vw;
@@ -790,18 +785,18 @@ table {
     .promoComponent .promo__content {
       width: 61.5236vw;
       height: 21.09381vw;
-      margin: 16.47954vw auto; }
+      margin: 150px auto; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         display: none; }
       .promoComponent .promo__content .promo__share-dreams {
-        line-height: 7.47072vw;
+        line-height: 55px;
         font-size: 52px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 3.07618vw;
+        margin-top: 35px;
         font-size: 24px; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 230px;
-        margin-top: 4.17482vw; }
+        margin-top: 45px; }
   .promoComponent {
     height: 61.5236vw;
     background: url("../images/promo-desktop-bg.png") no-repeat; }
@@ -811,33 +806,28 @@ table {
       justify-content: space-between;
       width: 1040px;
       height: 35px;
-      margin-top: 0; }
+      margin: 0 auto; }
       .promoComponent .promo__header .promo__urlaubsgluck-header {
         display: block;
-        margin-top: -15px;
-        margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        letter-spacing: 0.04395vw; }
-      .promoComponent .promo__header .promo__button {
-        margin-top: -24px; }
+        letter-spacing: .5px; }
     .promoComponent .promo__content {
-      width: 39.55089vw;
-      height: 21.09381vw;
-      margin-top: 10.32718vw; }
+      width: 600px;
+      height: 240px;
+      margin-top: 220px; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-left: 90px;
-        line-height: 4.30665vw; }
+        line-height: 55px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 1.75782vw;
-        padding-left: 6.15236vw;
+        margin-top: 20px;
+        padding-left: 85px;
         text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
-        margin-top: 2.63673vw;
-        margin-left: 6.15236vw; } }
+        margin-left: 70px; } }
 @media (min-width: 1681px) and (max-width: 1920px) {
   .promoComponent {
     height: 42.18761vw;
@@ -933,18 +923,18 @@ table {
     .promoComponent .promo__content {
       width: 54.68764vw;
       height: 18.75005vw;
-      margin: 14.64848vw auto; }
+      margin: 150px auto; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         display: none; }
       .promoComponent .promo__content .promo__share-dreams {
-        line-height: 6.64064vw;
+        line-height: 55px;
         font-size: 52px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 2.73438vw;
+        margin-top: 35px;
         font-size: 24px; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 230px;
-        margin-top: 3.71095vw; }
+        margin-top: 45px; }
   .promoComponent {
     height: 54.68764vw;
     background: url("../images/promo-desktop-bg.png") no-repeat; }
@@ -954,33 +944,28 @@ table {
       justify-content: space-between;
       width: 1040px;
       height: 35px;
-      margin-top: 0; }
+      margin: 0 auto; }
       .promoComponent .promo__header .promo__urlaubsgluck-header {
         display: block;
-        margin-top: -15px;
-        margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        letter-spacing: 0.03906vw; }
-      .promoComponent .promo__header .promo__button {
-        margin-top: -24px; }
+        letter-spacing: .5px; }
     .promoComponent .promo__content {
-      width: 35.15634vw;
-      height: 18.75005vw;
-      margin-top: 9.17971vw; }
+      width: 600px;
+      height: 240px;
+      margin-top: 220px; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-left: 90px;
-        line-height: 3.82813vw; }
+        line-height: 55px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 1.5625vw;
-        padding-left: 5.46876vw;
+        margin-top: 20px;
+        padding-left: 85px;
         text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
-        margin-top: 2.34376vw;
-        margin-left: 5.46876vw; } }
+        margin-left: 70px; } }
 @media (min-width: 1921px) {
   .promoComponent {
     height: 36.91408vw;
@@ -1076,18 +1061,18 @@ table {
     .promoComponent .promo__content {
       width: 47.85158vw;
       height: 16.40626vw;
-      margin: 12.81739vw auto; }
+      margin: 150px auto; }
       .promoComponent .promo__content .promo__urlaubsgluck-content {
         display: none; }
       .promoComponent .promo__content .promo__share-dreams {
-        line-height: 5.81055vw;
+        line-height: 55px;
         font-size: 52px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 2.39258vw;
+        margin-top: 35px;
         font-size: 24px; }
       .promoComponent .promo__content .promo__find-partner-button {
         width: 230px;
-        margin-top: 3.24707vw; }
+        margin-top: 45px; }
   .promoComponent {
     height: 47.85158vw;
     background: url("../images/promo-desktop-bg.png") no-repeat; }
@@ -1097,33 +1082,28 @@ table {
       justify-content: space-between;
       width: 1040px;
       height: 35px;
-      margin-top: 0; }
+      margin: 0 auto; }
       .promoComponent .promo__header .promo__urlaubsgluck-header {
         display: block;
-        margin-top: -15px;
-        margin-left: 100px;
         color: #fff;
         font-family: 'Montserrat Bold', sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
-        letter-spacing: 0.03418vw; }
-      .promoComponent .promo__header .promo__button {
-        margin-top: -24px; }
+        letter-spacing: .5px; }
     .promoComponent .promo__content {
-      width: 30.76173vw;
-      height: 16.40626vw;
-      margin-top: 8.03223vw; }
+      width: 600px;
+      height: 240px;
+      margin-top: 220px; }
       .promoComponent .promo__content .promo__share-dreams {
         margin-left: 90px;
-        line-height: 3.34961vw; }
+        line-height: 55px; }
       .promoComponent .promo__content .promo__perfect-partner {
-        margin-top: 1.36719vw;
-        padding-left: 4.78516vw;
+        margin-top: 20px;
+        padding-left: 85px;
         text-align: center; }
       .promoComponent .promo__content .promo__find-partner-button {
-        margin-top: 2.05078vw;
-        margin-left: 4.78516vw; } }
+        margin-left: 70px; } }
 
 @media (max-width: 414px) {
   .how-it-worksComponent {
@@ -1558,7 +1538,7 @@ table {
   .how-it-worksComponent {
     width: 88.12524vw;
     height: 52.03139vw;
-    margin: 0 110px; }
+    margin: 0 auto; }
     .how-it-worksComponent .how-it-works__title {
       text-align: center;
       margin-top: -98px; }
@@ -1671,7 +1651,7 @@ table {
   .how-it-worksComponent {
     width: 82.61741vw;
     height: 48.77943vw;
-    margin: 0 110px; }
+    margin: 0 auto; }
     .how-it-worksComponent .how-it-works__title {
       text-align: center;
       margin-top: -98px; }
@@ -1784,7 +1764,7 @@ table {
   .how-it-worksComponent {
     width: 73.43769vw;
     height: 43.35949vw;
-    margin: 0 110px; }
+    margin: 0 auto; }
     .how-it-worksComponent .how-it-works__title {
       text-align: center;
       margin-top: -98px; }
@@ -1897,7 +1877,7 @@ table {
   .how-it-worksComponent {
     width: 64.25784vw;
     height: 37.93947vw;
-    margin: 0 110px; }
+    margin: 0 auto; }
     .how-it-worksComponent .how-it-works__title {
       text-align: center;
       margin-top: -98px; }
@@ -2238,18 +2218,18 @@ table {
       height: 40px;
       margin-left: 300px; }
   .partnersComponent {
-    height: 44.06262vw;
+    height: 490px;
     margin-top: -155px; }
     .partnersComponent .partners__title {
       margin-left: 50px; }
     .partnersComponent .partners__content {
       width: 940px;
-      margin: -110px 260px;
+      margin: -110px auto;
       text-align: center;
       flex-direction: row;
       flex-wrap: nowrap; }
     .partnersComponent .partners__button {
-      margin: 35px 635px; } }
+      margin: 35px 620px; } }
 @media (min-width: 1367px) and (max-width: 1680px) {
   .partnersComponent {
     height: 95.80104vw;
@@ -2324,18 +2304,18 @@ table {
       height: 40px;
       margin-left: 300px; }
   .partnersComponent {
-    height: 41.3087vw;
+    height: 490px;
     margin-top: -155px; }
     .partnersComponent .partners__title {
       margin-left: 50px; }
     .partnersComponent .partners__content {
       width: 940px;
-      margin: -110px 260px;
+      margin: -110px auto;
       text-align: center;
       flex-direction: row;
       flex-wrap: nowrap; }
     .partnersComponent .partners__button {
-      margin: 35px 635px; } }
+      margin: 35px 620px; } }
 @media (min-width: 1681px) and (max-width: 1920px) {
   .partnersComponent {
     height: 85.15647vw;
@@ -2410,18 +2390,18 @@ table {
       height: 40px;
       margin-left: 300px; }
   .partnersComponent {
-    height: 36.71884vw;
+    height: 490px;
     margin-top: -155px; }
     .partnersComponent .partners__title {
       margin-left: 50px; }
     .partnersComponent .partners__content {
       width: 940px;
-      margin: -110px 260px;
+      margin: -110px auto;
       text-align: center;
       flex-direction: row;
       flex-wrap: nowrap; }
     .partnersComponent .partners__button {
-      margin: 35px 635px; } }
+      margin: 35px 620px; } }
 @media (min-width: 1921px) {
   .partnersComponent {
     height: 74.51175vw;
@@ -2496,18 +2476,18 @@ table {
       height: 40px;
       margin-left: 300px; }
   .partnersComponent {
-    height: 32.12892vw;
+    height: 490px;
     margin-top: -155px; }
     .partnersComponent .partners__title {
       margin-left: 50px; }
     .partnersComponent .partners__content {
       width: 940px;
-      margin: -110px 260px;
+      margin: -110px auto;
       text-align: center;
       flex-direction: row;
       flex-wrap: nowrap; }
     .partnersComponent .partners__button {
-      margin: 35px 635px; } }
+      margin: 35px 620px; } }
 
 @media (max-width: 414px) {
   .holidaysComponent {
@@ -2824,10 +2804,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -2908,10 +2888,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -2992,10 +2972,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -3076,10 +3056,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -3405,10 +3385,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -3489,10 +3469,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -3573,10 +3553,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -3657,10 +3637,10 @@ table {
           width: 493px; }
   .holidaysComponent {
     height: 1025px;
-    margin-top: -135px; }
+    margin-top: 0; }
     .holidaysComponent .holidays__wrapper {
       width: 940px;
-      margin-left: 250px; }
+      margin: 0 auto; }
       .holidaysComponent .holidays__wrapper .holidays__ideas_box {
         width: 100%;
         margin-top: 11px; }
@@ -3934,13 +3914,11 @@ table {
     height: 350px; }
     .searchComponent .search__title {
       margin-top: 102px;
-      margin-left: 82px; }
+      text-align: center; }
     .searchComponent .search__tagline {
-      margin-left: 85px; }
+      text-align: center; }
     .searchComponent .search__input {
-      margin-left: 517px; }
-    .searchComponent .search__button {
-      margin-left: -20px; } }
+      margin-left: 480px; } }
 @media (min-width: 1367px) and (max-width: 1680px) {
   .searchComponent {
     height: 20.2149vw; }
@@ -4002,13 +3980,11 @@ table {
     height: 350px; }
     .searchComponent .search__title {
       margin-top: 102px;
-      margin-left: 82px; }
+      text-align: center; }
     .searchComponent .search__tagline {
-      margin-left: 85px; }
+      text-align: center; }
     .searchComponent .search__input {
-      margin-left: 517px; }
-    .searchComponent .search__button {
-      margin-left: -20px; } }
+      margin-left: 480px; } }
 @media (min-width: 1681px) and (max-width: 1920px) {
   .searchComponent {
     height: 17.9688vw; }
@@ -4070,13 +4046,11 @@ table {
     height: 350px; }
     .searchComponent .search__title {
       margin-top: 102px;
-      margin-left: 82px; }
+      text-align: center; }
     .searchComponent .search__tagline {
-      margin-left: 85px; }
+      text-align: center; }
     .searchComponent .search__input {
-      margin-left: 517px; }
-    .searchComponent .search__button {
-      margin-left: -20px; } }
+      margin-left: 480px; } }
 @media (min-width: 1921px) {
   .searchComponent {
     height: 15.72266vw; }
@@ -4138,13 +4112,11 @@ table {
     height: 350px; }
     .searchComponent .search__title {
       margin-top: 102px;
-      margin-left: 82px; }
+      text-align: center; }
     .searchComponent .search__tagline {
-      margin-left: 85px; }
+      text-align: center; }
     .searchComponent .search__input {
-      margin-left: 517px; }
-    .searchComponent .search__button {
-      margin-left: -20px; } }
+      margin-left: 480px; } }
 
 @media (max-width: 414px) {
   .footerComponent {

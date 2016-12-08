@@ -10,44 +10,37 @@
     justify-content: space-between;
     width: 1040px;
     height: 35px;
-    margin-top: 0;
+    margin: 0 auto;
 
     .promo__urlaubsgluck-header {
       display: block;
-      margin-top: -15px;
-      margin-left: 100px;
       color: #fff;
       font-family: 'Montserrat Bold', sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      letter-spacing: px(1);
-    }
-
-    .promo__button {
-      margin-top: -24px;
+      letter-spacing: .5px;
     }
   }
 
   .promo__content {
-    width: px(900);
-    height: px(480);
-    margin-top: px(235);
+    width: 600px;
+    height: 240px;
+    margin-top: 220px;
 
     .promo__share-dreams {
       margin-left: 90px;
-      line-height: px(98);
+      line-height: 55px;
     }
 
     .promo__perfect-partner {
-      margin-top: px(40);
-      padding-left: px(140);
+      margin-top: 20px;
+      padding-left: 85px;
       text-align: center;
     }
 
     .promo__find-partner-button {
-      margin-top: px(60);
-      margin-left: px(140);
+      margin-left: 70px;
     }
   }
 }

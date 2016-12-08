@@ -27,25 +27,25 @@
   .promo__content {
     width: px(1400);
     height: px(480);
-    margin: px(375) auto;
+    margin: 150px auto;
 
     .promo__urlaubsgluck-content {
       display: none;
     }
 
     .promo__share-dreams {
-      line-height: px(170);
+      line-height: 55px;
       font-size: 52px;
     }
 
     .promo__perfect-partner{
-      margin-top: px(70);
+      margin-top: 35px;
       font-size: 24px;
     }
 
     .promo__find-partner-button {
       width: 230px;
-      margin-top: px(95);
+      margin-top: 45px;
     }
   }
 }
